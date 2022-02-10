@@ -18,9 +18,18 @@ html {
     font-size: 16px;
 }
 
-.outer {
+.wrapper {
     /* width: 1920px;
     height: 1080px; */
+}
+
+.top {
+    display: flex;
+}
+
+.top > div,
+.top > section {
+    flex: 1;
 }
 
 /* begin slideshow */

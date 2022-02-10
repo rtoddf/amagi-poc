@@ -11,8 +11,17 @@ const Video = (props) => {
     const [index, setIndex] = useState(0);
     const renderCount = useRef(0);
 
-    const videos = [video01, video02, video03, video04]
-    const slideshowImages = videos.map((video) => {
+    const videos = [video01, video02, video03, video04];
+
+    // const videos = data.map((slide, index) => {
+    //     return (
+    //         <video key={index} controls='controls' autoPlay="autoPlay" preload='none' width='600' muted poster={thumbnail}>
+    //             <source src={ slide.video } type='video/mp4' />
+    //         </video>
+    //     )
+    // });
+
+    const slideshowVideos = videos.map((video) => {
         return (
             <video controls='controls' autoPlay="autoPlay" preload='none' width='600' muted poster={thumbnail}>
                 <source src={ video } type='video/mp4' />
@@ -22,7 +31,7 @@ const Video = (props) => {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            renderCount.current = (renderCount.current + 1) % slideshowImages.length;
+            renderCount.current = (renderCount.current + 1) % slideshowVideos.length;
             setIndex(renderCount.current);
         }, 5000)
 
@@ -31,7 +40,7 @@ const Video = (props) => {
 
     return (
         <section>
-            {slideshowImages.map((screen, i) => {
+            {slideshowVideos.map((screen, i) => {
                 return (
                     <article key={i} hidden={i !== index || undefined}>
                         {screen}

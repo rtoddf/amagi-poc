@@ -1,19 +1,36 @@
 import './css/base.css';
+import Meteorologist from './Components/Meteorologist';
+import CurrentConditions from './Components/CurrentConditions';
 import Images from './Components/Images';
 import Video from './Components/Video';
 import Forecast from './Components/Forecast';
 
 function App() {
   return (
-    <>
-      <div className="slideshows">
-        <Video />
+    <div className="wrapper">
+      <div className="top">
+        <div className="curent">
+          <Meteorologist />
+        </div>
+        <div className="curent">
+          <CurrentConditions />
+        </div>
         <Images />
       </div>
-      <div className="forecast">
-        <Forecast />
+
+      <div className="niddle">
+        <div className="slideshows">
+          <Video />
+          
+        </div>
       </div>
-    </>
+
+      <div className="bottom">
+        <div className="forecast">
+          <Forecast />
+        </div>
+      </div>
+    </div>
   );
 }
 
