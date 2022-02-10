@@ -1,0 +1,128 @@
+/* html {
+    box-sizing: border-box;
+    height: 100%;
+    color: #222;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* slideshow */
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    /* background: linear-gradient(to bottom right, #D9DEED, #A4B2D8) */
+}
+
+/* section {
+    height: 80vw;
+    width: 80vw;
+  } */
+  
+  section {
+    display: grid;
+    grid-template: 1 / 1;
+  }
+  
+  section > article {
+    grid-area: 1 / 1;
+  }
+
+article {
+    transition: all .3s .3s cubic-bezier(.5, 0, .5, 1);
+    transition-property: opacity, transform;
+}
+
+article[hidden] {
+    transition-delay: 0s;
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+article {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    box-shadow: 0 1rem 2rem rgba(black, 0.1);
+}
+
+.image {
+    width: 100%;
+}
+
+
+body {
+    background-color: rgb(17, 23, 62);
+    color: #fff;
+}
+
+.outer {
+    /* width: 1920px;
+    height: 1080px; */
+}
+
+.weather-forecast {
+    display: flex;
+}
+
+.day {
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    flex: 1;
+    text-align: center;
+}
+
+.day-name {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.day-icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 184px;
+    height: 184px;
+}
+
+.conditions {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.temps {
+    opacity: 1;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.temps .low {
+    opacity: .6;
+}
+
+.rainchance {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
