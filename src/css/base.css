@@ -19,8 +19,8 @@ html {
 }
 
 .wrapper {
-    /* width: 1920px;
-    height: 1080px; */
+    width: 1920px;
+    height: 1080px;
 }
 
 .row01 {
@@ -33,18 +33,22 @@ html {
     flex: 1;
 }
 
-/* begin slideshow */
-.videos-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    font-weight: 600;
+/* begin image-container */
+.image-container {
+
 }
 
-img {
+.image-container img {
     width: 600px;
 }
+/* end image-container */
+
+/* begin video-container */
+.videos-container {
+
+}
+/* end video-container */
+
   
 section {
     display: grid;

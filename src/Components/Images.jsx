@@ -23,15 +23,18 @@ const Images = (props) => {
     }, [])
 
     return (
-        <section>
-            {slideshowImages.map((image, i) => {
-                return (
-                    <article key={i} hidden={i !== index || undefined}>
-                        {image}
-                    </article>
-                );
-            })}
-        </section>
+        <div className="image-container">
+            <section>
+                {slideshowImages.map((image, i) => {
+                    return (
+                        <article key={i} hidden={i !== index || undefined}>
+                            {image}
+                        </article>
+                    );
+                })}
+            </section>
+        </div>
+        
     )
 }
 
