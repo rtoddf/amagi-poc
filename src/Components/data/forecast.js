@@ -2,9 +2,10 @@ const apps = [
     {
       site: 'wsbtv',
       env: 'https://www.wsbtv.com',
-      meteorologist: 'Glenn Burns',
-      meteorologistimage: 'Chief Metorologist',
-      meteorologisttitle: 'https://mediaweb.actionnewsjax.com/weather/First_Alert_Radar.jpg',
+      meteorologistname: 'Brad Nix',
+      meteorologistimage: 'https://cmg-cmg-tv-10010-prod.cdn.arcpublishing.com/resizer/eRzR_k5LBZKCMh4ic9WPgyS06ao=/fit-in/158x0/filters:quality(70):fill(white):background_color(white)/cloudfront-us-east-1.images.arcpublishing.com/cmg/FQU6O427MVFAVMHPIFBOWXNQ5Y.png',
+      meteorologisttitle: 'Chief Meteorologist',
+      emblemurl: 'https://www.wsbtv.com/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348',
       days: [
         {
             dayname: 'wed',
