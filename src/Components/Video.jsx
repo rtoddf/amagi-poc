@@ -5,21 +5,10 @@ import video03 from './videos/video03.mp4';
 import video04 from './videos/video04.mp4';
 import thumbnail from './images/thumbnail.jpg';
 
-import data from './data/slideshow';
-
 const Video = (props) => {
     const [index, setIndex] = useState(0);
     const renderCount = useRef(0);
-
-    const videos = [video01, video02, video03, video04];
-
-    // const videos = data.map((slide, index) => {
-    //     return (
-    //         <video key={index} controls='controls' autoPlay="autoPlay" preload='none' width='600' muted poster={thumbnail}>
-    //             <source src={ slide.video } type='video/mp4' />
-    //         </video>
-    //     )
-    // });
+    const videos = [video01, video02, video03, video04, video05];
 
     const slideshowVideos = videos.map((video) => {
         return (
