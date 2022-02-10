@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import images from './data/slideshow';
 
+const myIndex = {};
+
 const Images = (props) => {
     const [index, setIndex] = useState(0);
 
@@ -12,13 +14,17 @@ const Images = (props) => {
         )
     });
 
-    // useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //         setCurrentImage(slideshowImages[Math.floor(Math.random() * slideshowImages.length)]);
-    //     }, 5000)
-        
-    //     return () => clearInterval(intervalId);
-    // }, [])
+    myIndex.value = index;
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            console.log('myIndex.value before: ', myIndex.value)
+            setIndex(myIndex.value + 1);
+            console.log('myIndex.value after: ', myIndex.value)
+        }, 5000)
+
+        return () => clearInterval(intervalId);
+    }, [])
 
     return (
         <section>
