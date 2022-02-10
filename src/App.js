@@ -8,26 +8,26 @@ import Forecast from './Components/Forecast';
 function App() {
   return (
     <div className="wrapper">
-      <div className="top">
-        <div className="curent">
+      <div className="row01">
+        <div className="meteorologist">
           <Meteorologist />
         </div>
-        <div className="curent">
+        <div className="current-conditions">
           <CurrentConditions />
         </div>
         <Images />
+      </div>
+
+      <div className="bottom">
+        <div className="forecast">
+          <Forecast />
+        </div>
       </div>
 
       <div className="niddle">
         <div className="slideshows">
           <Video />
           
-        </div>
-      </div>
-
-      <div className="bottom">
-        <div className="forecast">
-          <Forecast />
         </div>
       </div>
     </div>
