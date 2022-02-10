@@ -1,13 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import images from './data/slideshow';
-
-const myIndex = {};
-// https://dmitripavlutin.com/react-useref-guide/#1-mutable-values
+import data from './data/slideshow';
 
 const Images = (props) => {
     const [index, setIndex] = useState(0);
+    const renderCount = useRef(0);
 
-    const slideshowImages = images.map((slide, index) => {
+    const slideshowImages = data.map((slide, index) => {
         return (
             <>
                 <img key={index} src={slide.url} />
@@ -15,11 +13,10 @@ const Images = (props) => {
         )
     });
 
-    myIndex.value = index;
-
     useEffect(() => {
         const intervalId = setInterval(() => {
-            setIndex((myIndex.value + 1) % slideshowImages.length);
+            renderCount.current = (renderCount.current + 1) % slideshowImages.length;
+            setIndex(renderCount.current);
         }, 5000)
 
         return () => clearInterval(intervalId);
@@ -27,7 +24,6 @@ const Images = (props) => {
 
     return (
         <section>
-            <div onClick={() => setIndex((index + 1) % slideshowImages.length)}>change</div>
             {slideshowImages.map((image, i) => {
                 return (
                     <article key={i} hidden={i !== index || undefined}>

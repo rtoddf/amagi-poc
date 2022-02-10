@@ -8,7 +8,7 @@ const apps = [
       days: [
         {
             dayname: 'wed',
-            icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
+            icon: 'https://www.wftv.com/pf/resources/images/weather/status-icons/26.png?d=348',
             conditions: 'Scattered Thunderstorms',
             hightemp: '102',
             lowtemp: '-22',
@@ -16,7 +16,7 @@ const apps = [
         },
         {
             dayname: 'thu',
-            icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
+            icon: 'https://www.wpxi.com/pf/resources/images/weather/status-icons/13.png?d=348',
             conditions: 'Freezing Rain',
             hightemp: '102',
             lowtemp: '-22',
@@ -32,7 +32,7 @@ const apps = [
         },
         {
             dayname: 'sat',
-            icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
+            icon: 'https://www.wftv.com/pf/resources/images/weather/status-icons/26.png?d=348',
             conditions: 'Scattered Thunderstorms',
             hightemp: '102',
             lowtemp: '-22',
@@ -40,7 +40,7 @@ const apps = [
         },
         {
             dayname: 'sun',
-            icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
+            icon: 'https://www.wftv.com/pf/resources/images/weather/status-icons/26.png?d=348',
             conditions: 'Scattered Thunderstorms',
             hightemp: '102',
             lowtemp: '-22',
@@ -48,7 +48,7 @@ const apps = [
         },
         {
             dayname: 'mon',
-            icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
+            icon: 'https://www.wsoctv.com/pf/resources/images/weather/status-icons/39.png?d=348',
             conditions: 'Heavy Rain',
             hightemp: '102',
             lowtemp: '-22',
@@ -56,8 +56,8 @@ const apps = [
         },
         {
             dayname: 'tue',
-            icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
-            conditions: 'Isolated Thunderstorms',
+            icon: 'https://www.fox23.com/pf/resources/images/weather/status-icons/24.png?d=348',
+            conditions: 'Partly Coudy/Wind',
             hightemp: '102',
             lowtemp: '-22',
             rainchance: '100%',
