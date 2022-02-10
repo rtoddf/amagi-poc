@@ -17,7 +17,7 @@ const apps = [
         {
             dayname: 'thu',
             icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
-            conditions: 'Scattered Thunderstorms',
+            conditions: 'Freezing Rain',
             hightemp: '102',
             lowtemp: '-22',
             rainchance: '100%',
@@ -25,7 +25,7 @@ const apps = [
         {
             dayname: 'fri',
             icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
-            conditions: 'Scattered Thunderstorms',
+            conditions: 'Sunny',
             hightemp: '102',
             lowtemp: '-22',
             rainchance: '100%',
@@ -49,7 +49,7 @@ const apps = [
         {
             dayname: 'mon',
             icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
-            conditions: 'Scattered Thunderstorms',
+            conditions: 'Heavy Rain',
             hightemp: '102',
             lowtemp: '-22',
             rainchance: '100%',
@@ -57,7 +57,7 @@ const apps = [
         {
             dayname: 'tue',
             icon: 'https://www.wsbtv.com/pf/resources/images/weather/status-icons/32.png?d=348',
-            conditions: 'Scattered Thunderstorms',
+            conditions: 'Isolated Thunderstorms',
             hightemp: '102',
             lowtemp: '-22',
             rainchance: '100%',

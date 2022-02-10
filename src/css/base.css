@@ -1,16 +1,8 @@
-/* html {
-    box-sizing: border-box;
-    height: 100%;
-    color: #222;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-}
-
 *, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-} */
+}
 
 html,
 body {
@@ -18,29 +10,41 @@ body {
     width: 100%;
 }
 
-/* slideshow */
-.root {
+html {
+    box-sizing: border-box;
+    background-color: rgb(17, 23, 62);
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.outer {
+    /* width: 1920px;
+    height: 1080px; */
+}
+
+/* begin slideshow */
+.slideshows {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
     font-weight: 600;
-    /* background: linear-gradient(to bottom right, #D9DEED, #A4B2D8) */
 }
 
-/* section {
-    height: 80vw;
-    width: 80vw;
-  } */
+img {
+    width: 600px;
+}
   
-  section {
+section {
     display: grid;
     grid-template: 1 / 1;
-  }
-  
-  section > article {
+    padding: 20px;
+}
+
+section > article {
     grid-area: 1 / 1;
-  }
+}
 
 article {
     transition: all .3s .3s cubic-bezier(.5, 0, .5, 1);
@@ -61,22 +65,9 @@ article {
     border-radius: .5rem;
     box-shadow: 0 1rem 2rem rgba(black, 0.1);
 }
+/* end slideshow */
 
-.image {
-    width: 100%;
-}
-
-
-body {
-    background-color: rgb(17, 23, 62);
-    color: #fff;
-}
-
-.outer {
-    /* width: 1920px;
-    height: 1080px; */
-}
-
+/* begin forecast */
 .weather-forecast {
     display: flex;
 }
@@ -87,14 +78,18 @@ body {
     text-align: center;
 }
 
-.day-name {
+.day > div {
+    padding: 20px 30px;
+}
+
+.name {
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 30px;
 }
 
-.day-icon {
+.icon {
     text-align: center;
 }
 
@@ -126,3 +121,4 @@ body {
     line-height: 24px;
 }
 
+/* end forecast */

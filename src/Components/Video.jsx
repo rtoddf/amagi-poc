@@ -19,8 +19,6 @@ const Video = (props) => {
         )
     });
 
-    console.log('slideshowImages: ', slideshowImages)
-
     // useEffect(() => {
     //     const intervalId = setInterval(() => {
     //         console.log('index before: ', intervalId)

@@ -5,7 +5,7 @@ import myStream from './videos/live.m3u8';
 
 import slideshow from './data/slideshow';
 
-const Slideshow = (props) => {
+const VideoExamples = (props) => {
     console.log('slideshow: ', slideshow)
 
     return (
@@ -25,4 +25,4 @@ const Slideshow = (props) => {
     )
 }
 
-export default Slideshow;
+export default VideoExamples;

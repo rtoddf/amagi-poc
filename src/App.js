@@ -1,16 +1,17 @@
 import './css/base.css';
-import Slideshow from './Components/Slideshow';
+import Images from './Components/Images';
 import Video from './Components/Video';
-import Weather from './Components/Weather';
+import Forecast from './Components/Forecast';
 
 function App() {
   return (
     <>
-      <div className="root">
+      <div className="slideshows">
         <Video />
+        <Images />
       </div>
-      <div className="root">
-        <Slideshow />
+      <div className="forecast">
+        <Forecast />
       </div>
     </>
   );

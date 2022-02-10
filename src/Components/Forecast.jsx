@@ -1,16 +1,15 @@
 import React from 'react';
+import forecast from './data/forecast';
 
-import weather from './data/weather';
-
-const Weather = (props) => {
-    console.log('weather: ', weather)
+const Forecast = (props) => {
+    console.log('forecast: ', forecast)
 
     // this can be done differently
-    const weatherDays = (weather[0].days).map((day, index) => (
+    const weatherDays = (forecast[0].days).map((day, index) => (
         <div className="day">
             <div className="name">{day.dayname}</div>
             <div className="icon">
-                <img src={day.icon} />
+                <img src={day.icon} alt="" />
             </div>
             <div className="conditions">{day.conditions}</div>
             <div className="temps"><span className="high">{day.hightemp}</span> | <span className="low">{day.lowtemp}</span></div>
@@ -25,4 +24,4 @@ const Weather = (props) => {
     )
 }
 
-export default Weather;
+export default Forecast;
