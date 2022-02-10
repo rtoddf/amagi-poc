@@ -1,49 +1,46 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import video01 from './videos/video01.mp4';
 import video02 from './videos/video02.mp4';
 import video03 from './videos/video03.mp4';
 import video04 from './videos/video04.mp4';
+import video05 from './videos/video05.mp4';
 import thumbnail from './images/thumbnail.jpg';
-
-import images from './data/slideshow';
 
 const Video = (props) => {
     const [index, setIndex] = useState(0);
-    const videos = [video01, video02, video03, video04]
+    const renderCount = useRef(0);
+    const videos = [video01, video02, video03, video04, video05];
 
-    const slideshowImages = videos.map((video) => {
+    const slideshowVideos = videos.map((video) => {
         return (
-            <video controls='controls' autoPlay="autoPlay" preload='none' width='600' muted>
+            <video controls='controls' autoPlay="autoPlay" preload='none' width='600' muted poster={thumbnail}>
                 <source src={ video } type='video/mp4' />
             </video>
         )
     });
 
-    console.log('slideshowImages: ', slideshowImages)
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            renderCount.current = (renderCount.current + 1) % slideshowVideos.length;
+            setIndex(renderCount.current);
+        }, 5000)
 
-    // useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //         console.log('index before: ', intervalId)
-    //         setIndex((index + 1) % slideshowImages.length)
-    //         console.log('index after: ', index)
-    //         // setCurrentImage(slideshowImages[Math.floor(Math.random() * slideshowImages.length)]);
-    //         // id="videoPoc" onClick={() => setIndex((index + 1) % slideshowImages.length)}
-    //     }, 5000)
-
-    //     return () => clearInterval(intervalId);
-    // }, [])
+        return () => clearInterval(intervalId);
+    }, [])
 
     return (
-        <section>
-            <div onClick={() => setIndex((index + 1) % slideshowImages.length)}>change</div>
-            {slideshowImages.map((screen, i) => {
-                return (
-                    <article key={i} hidden={i !== index || undefined}>
-                        {screen}
-                    </article>
-                );
-            })}
-        </section>
+        <div className="videos-container">
+            <section>
+                {slideshowVideos.map((screen, i) => {
+                    return (
+                        <article key={i} hidden={i !== index || undefined}>
+                            {screen}
+                        </article>
+                    );
+                })}
+            </section>
+        </div>
+        
     )
 }
 

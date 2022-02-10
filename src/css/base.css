@@ -1,16 +1,8 @@
-/* html {
-    box-sizing: border-box;
-    height: 100%;
-    color: #222;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-}
-
 *, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-} */
+}
 
 html,
 body {
@@ -18,29 +10,54 @@ body {
     width: 100%;
 }
 
-/* slideshow */
-.root {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    font-weight: 600;
-    /* background: linear-gradient(to bottom right, #D9DEED, #A4B2D8) */
+html {
+    box-sizing: border-box;
+    background-color: #0e162f;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
 }
 
-/* section {
-    height: 80vw;
-    width: 80vw;
-  } */
-  
-  section {
+.wrapper {
+    width: 1920px;
+    height: 1080px;
+}
+
+.row01 {
+    display: flex;
+    background-image: linear-gradient(#0f2877, #0e162f);
+}
+
+.row01 > div,
+.row01 > section {
+    flex: 1;
+}
+
+/* begin image-container */
+.image-container {
+
+}
+
+.image-container img {
+    width: 600px;
+}
+/* end image-container */
+
+/* begin video-container */
+.videos-container {
+
+}
+/* end video-container */
+
+section {
     display: grid;
     grid-template: 1 / 1;
-  }
-  
-  section > article {
+    padding: 20px;
+}
+
+section > article {
     grid-area: 1 / 1;
-  }
+}
 
 article {
     transition: all .3s .3s cubic-bezier(.5, 0, .5, 1);
@@ -61,68 +78,150 @@ article {
     border-radius: .5rem;
     box-shadow: 0 1rem 2rem rgba(black, 0.1);
 }
+/* end slideshow */
 
-.image {
-    width: 100%;
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-body {
-    background-color: rgb(17, 23, 62);
-    color: #fff;
+/* begin meteorlogist */
+.meteorologist {
+    padding: 30px 70px;
 }
 
-.outer {
-    /* width: 1920px;
-    height: 1080px; */
+.meteorologist .flex-container > div {
+    margin: 10px;
 }
 
+.meteorologist .profile-pic {
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.meteorologist .profile-pic img {
+    width: 180px;
+    width: 180px;
+}
+
+.meteorologist .heading {
+    font-size: 1.25rem;
+    font-style: italic
+}
+
+.meteorologist .title {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.meteorologist .name {
+    font-size: 2.5625rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.emblem img {
+    width: 55px;
+}
+/* end meteorlogist */
+
+/* begin forecast */
 .weather-forecast {
     display: flex;
+    flex-direction: row;
 }
 
-.day {
+.weather-forecast .day {
     border-right: 1px solid rgba(255, 255, 255, .2);
     flex: 1;
     text-align: center;
 }
 
-.day-name {
-    font-size: 30px;
+.weather-forecast .day > div {
+    padding: 20px 30px;
+}
+
+.weather-forecast .name {
+    font-size: 1.875rem;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 30px;
 }
 
-.day-icon {
+.weather-forecast .icon {
     text-align: center;
 }
 
-.icon img {
+.weather-forecast .icon img {
     width: 184px;
     height: 184px;
 }
 
-.conditions {
-    font-size: 26px;
+.weather-forecast .conditions {
+    font-size: 1.625rem;
     font-weight: 400;
     line-height: 28px;
 }
 
-.temps {
+.weather-forecast .temps {
     opacity: 1;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 400;
     line-height: 36px;
 }
 
-.temps .low {
+.weather-forecast .temps .low {
     opacity: .6;
 }
 
-.rainchance {
-    font-size: 24px;
+.weather-forecast .rainchance {
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 24px;
 }
 
+/* end forecast */
+
+
+.current-conditions {
+    text-align: center;
+}
+
+.current-conditions > div {
+    margin: 20px;
+}
+
+.current-conditions .flex-container > div {
+    flex: 1;
+}
+
+.current-conditions .city {
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.current-conditions .icon img {
+    width: 184px;
+    height: 184px;
+}
+
+.current-conditions .temp {
+    font-size: 8.75rem;
+    font-weight: 300;
+}
+
+.current-conditions .conditions {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: inherit;
+}
+
+.current-conditions .feels-like {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
