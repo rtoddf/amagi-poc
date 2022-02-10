@@ -34,7 +34,7 @@ html {
 }
 
 /* begin slideshow */
-.slideshows {
+.videos-container {
     display: flex;
     justify-content: center;
     align-items: center;

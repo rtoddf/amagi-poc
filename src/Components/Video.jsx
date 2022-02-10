@@ -39,15 +39,18 @@ const Video = (props) => {
     }, [])
 
     return (
-        <section>
-            {slideshowVideos.map((screen, i) => {
-                return (
-                    <article key={i} hidden={i !== index || undefined}>
-                        {screen}
-                    </article>
-                );
-            })}
-        </section>
+        <div className="videos-container">
+            <section>
+                {slideshowVideos.map((screen, i) => {
+                    return (
+                        <article key={i} hidden={i !== index || undefined}>
+                            {screen}
+                        </article>
+                    );
+                })}
+            </section>
+        </div>
+        
     )
 }
 

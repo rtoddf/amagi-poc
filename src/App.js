@@ -9,25 +9,26 @@ function App() {
   return (
     <div className="wrapper">
       <div className="row01">
-        <div className="meteorologist">
+        <div className="slot01">
           <Meteorologist />
         </div>
-        <div className="current-conditions">
+        <div className="slot02">
           <CurrentConditions />
         </div>
-        <Images />
+        <div className="slot03">
+          <Images />
+        </div>
       </div>
 
-      <div className="bottom">
-        <div className="forecast">
+      <div className="row02">
+        <div className="slot01">
           <Forecast />
         </div>
       </div>
 
-      <div className="niddle">
-        <div className="slideshows">
+      <div className="row3">
+        <div className="slot01">
           <Video />
-          
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import forecast from './data/forecast';
 
 const Meteorologist = () => {
     return (
-        <div className="current-conditions">
+        <div className="meteorologist">
             <h1>Glenn Burns</h1>
         </div>
     )
