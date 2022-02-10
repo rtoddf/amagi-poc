@@ -2,11 +2,9 @@ import React from 'react';
 import forecast from './data/forecast';
 
 const Forecast = (props) => {
-    console.log('forecast: ', forecast)
-
     // this can be done differently
     const weatherDays = (forecast[0].days).map((day, index) => (
-        <div className="day">
+        <div key={index} className="day">
             <div className="name">{day.dayname}</div>
             <div className="icon">
                 <img src={day.icon} alt="" />

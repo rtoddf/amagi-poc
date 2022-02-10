@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import images from './data/slideshow';
 
 const myIndex = {};
+// https://dmitripavlutin.com/react-useref-guide/#1-mutable-values
 
 const Images = (props) => {
     const [index, setIndex] = useState(0);
@@ -9,7 +10,7 @@ const Images = (props) => {
     const slideshowImages = images.map((slide, index) => {
         return (
             <>
-                <img src={slide.url} />
+                <img key={index} src={slide.url} />
             </>
         )
     });
@@ -18,9 +19,7 @@ const Images = (props) => {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            console.log('myIndex.value before: ', myIndex.value)
-            setIndex(myIndex.value + 1);
-            console.log('myIndex.value after: ', myIndex.value)
+            setIndex((myIndex.value + 1) % slideshowImages.length);
         }, 5000)
 
         return () => clearInterval(intervalId);
