@@ -14,7 +14,7 @@ const Video = (props) => {
 
     const slideshowVideos = videos.map((video) => {
         return (
-            <video controls='controls' autoPlay="autoPlay" preload='none' width='600' muted poster={thumbnail}>
+            <video controls='controls' autoPlay="autoPlay" loop preload='none' width='600' muted poster={thumbnail}>
                 <source src={ video } type='video/mp4' />
             </video>
         )
