@@ -1,5 +1,6 @@
 import React from 'react';
-import data from './data/forecast';
+import data from '../data/forecast';
+import './default.css';
 
 const Meteorologist = () => {
     console.log('data[0]: ', data[0])

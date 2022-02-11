@@ -1,0 +1,41 @@
+.meteorologist {
+    padding: 30px 70px;
+}
+
+.meteorologist .flex-container > div {
+    margin: 10px;
+}
+
+.meteorologist .profile-pic {
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.meteorologist .profile-pic img {
+    width: 180px;
+    width: 180px;
+}
+
+.meteorologist .heading {
+    font-size: 1.25rem;
+    font-style: italic
+}
+
+.meteorologist .title {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.meteorologist .name {
+    font-size: 2.5625rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.meteorologist .emblem img {
+    width: 55px;
+}

@@ -1,9 +1,3 @@
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
 html,
 body {
     height: 100%;
@@ -18,9 +12,16 @@ html {
     font-size: 16px;
 }
 
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
 .wrapper {
     width: 1920px;
     height: 1080px;
+    overflow: hidden;
 }
 
 .row01 {
@@ -33,195 +34,8 @@ html {
     flex: 1;
 }
 
-/* begin image-container */
-.image-container {
-
-}
-
-.image-container img {
-    width: 600px;
-}
-/* end image-container */
-
-/* begin video-container */
-.videos-container {
-
-}
-/* end video-container */
-
-section {
-    display: grid;
-    grid-template: 1 / 1;
-    padding: 20px;
-}
-
-section > article {
-    grid-area: 1 / 1;
-}
-
-article {
-    transition: all .3s .3s cubic-bezier(.5, 0, .5, 1);
-    transition-property: opacity, transform;
-}
-
-article[hidden] {
-    transition-delay: 0s;
-    opacity: 0;
-    transform: scale(0.8);
-}
-
-article {
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: .5rem;
-    box-shadow: 0 1rem 2rem rgba(black, 0.1);
-}
-/* end slideshow */
-
 .flex-container {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/* begin meteorlogist */
-.meteorologist {
-    padding: 30px 70px;
-}
-
-.meteorologist .flex-container > div {
-    margin: 10px;
-}
-
-.meteorologist .profile-pic {
-    width: 180px;
-    height: 180px;
-    background-color: #fff;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.meteorologist .profile-pic img {
-    width: 180px;
-    width: 180px;
-}
-
-.meteorologist .heading {
-    font-size: 1.25rem;
-    font-style: italic
-}
-
-.meteorologist .title {
-    display: block;
-    font-size: 1.5rem;
-}
-
-.meteorologist .name {
-    font-size: 2.5625rem;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.emblem img {
-    width: 55px;
-}
-/* end meteorlogist */
-
-/* begin forecast */
-.weather-forecast {
-    display: flex;
-    flex-direction: row;
-}
-
-.weather-forecast .day {
-    border-right: 1px solid rgba(255, 255, 255, .2);
-    flex: 1;
-    text-align: center;
-}
-
-.weather-forecast .day > div {
-    padding: 20px 30px;
-}
-
-.weather-forecast .name {
-    font-size: 1.875rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 30px;
-}
-
-.weather-forecast .icon {
-    text-align: center;
-}
-
-.weather-forecast .icon img {
-    width: 184px;
-    height: 184px;
-}
-
-.weather-forecast .conditions {
-    font-size: 1.625rem;
-    font-weight: 400;
-    line-height: 28px;
-}
-
-.weather-forecast .temps {
-    opacity: 1;
-    font-size: 2.25rem;
-    font-weight: 400;
-    line-height: 36px;
-}
-
-.weather-forecast .temps .low {
-    opacity: .6;
-}
-
-.weather-forecast .rainchance {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-/* end forecast */
-
-
-.current-conditions {
-    text-align: center;
-}
-
-.current-conditions > div {
-    margin: 20px;
-}
-
-.current-conditions .flex-container > div {
-    flex: 1;
-}
-
-.current-conditions .city {
-    font-size: 2.25rem;
-    font-weight: 400;
-}
-
-.current-conditions .icon img {
-    width: 184px;
-    height: 184px;
-}
-
-.current-conditions .temp {
-    font-size: 8.75rem;
-    font-weight: 300;
-}
-
-.current-conditions .conditions {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: inherit;
-}
-
-.current-conditions .feels-like {
-    font-size: 1.5rem;
-    font-weight: 400;
 }
