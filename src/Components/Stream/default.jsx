@@ -8,7 +8,7 @@ import video03 from '../../videos/video03.mp4';
 import video04 from '../../videos/video04.mp4';
 import video05 from '../../videos/video05.mp4';
 
-const Video = (props) => {
+const Stream = () => {
     const [index, setIndex] = useState(0);
     const renderCount = useRef(0);
     const videos = [video01, video02, video03, video04, video05];
@@ -46,4 +46,4 @@ const Video = (props) => {
     )
 }
 
-export default Video;
+export default Stream;

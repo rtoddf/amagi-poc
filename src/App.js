@@ -1,6 +1,7 @@
 import Meteorologist from './Components/Meteorologist/default';
 import Image from './Components/Image/default';
 import Video from './Components/Video/default';
+import Stream from './Components/Stream/VideoExamples';
 import Forecast from './Components/Forecast/default';
 import './css/base.css';
 
@@ -9,7 +10,8 @@ function App() {
     <div className="wrapper">
       <div className="row01">
         <div className="slot01">
-          <Meteorologist />
+          <Stream />
+          {/* <Meteorologist /> */}
         </div>
         <div className="slot02">
           <Image />
