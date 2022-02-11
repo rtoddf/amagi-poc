@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
+
 import './default.css';
-import video01 from '../videos/video01.mp4';
-import video02 from '../videos/video02.mp4';
-import video03 from '../videos/video03.mp4';
-import video04 from '../videos/video04.mp4';
-import video05 from '../videos/video05.mp4';
-import thumbnail from '../images/thumbnail.jpg';
+import thumbnail from '../../images/thumbnail.jpg';
+import video01 from '../../videos/video01.mp4'
+import video02 from '../../videos/video02.mp4';
+import video03 from '../../videos/video03.mp4';
+import video04 from '../../videos/video04.mp4';
+import video05 from '../../videos/video05.mp4';
 
 const Video = (props) => {
     const [index, setIndex] = useState(0);
