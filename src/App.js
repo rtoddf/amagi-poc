@@ -1,7 +1,7 @@
 import Meteorologist from './Components/Meteorologist/default';
 import Image from './Components/Image/default';
 import Video from './Components/Video/default';
-import Stream from './Components/Stream/VideoExamples';
+import Stream from './Components/Stream/default';
 import Forecast from './Components/Forecast/default';
 import './css/base.css';
 
