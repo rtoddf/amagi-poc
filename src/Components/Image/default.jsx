@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
-import data from './data/slideshow';
+import data from '../data/slideshow';
+import './default.css';
 
-const Images = (props) => {
+const Image = (props) => {
     const [index, setIndex] = useState(0);
     const renderCount = useRef(0);
 
@@ -38,4 +39,4 @@ const Images = (props) => {
     )
 }
 
-export default Images;
+export default Image;

@@ -3,7 +3,7 @@ import thumbnail from './images/thumbnail.jpg';
 import myVideo from './videos/video_file_1920x1080-5400-v4-01.mp4';
 import myStream from './videos/live.m3u8';
 
-import slideshow from './data/slideshow';
+import slideshow from '../data/slideshow';
 
 const VideoExamples = (props) => {
     console.log('slideshow: ', slideshow)

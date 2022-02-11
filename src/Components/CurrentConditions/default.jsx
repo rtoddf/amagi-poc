@@ -1,9 +1,7 @@
 import React from 'react';
-import data from './data/forecast';
+import './default.css';
 
 const CurrentConditions = () => {
-    
-
     return (
         <div className="current-conditions">
             <div className="city">Atlanta, GA</div>
