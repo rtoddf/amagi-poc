@@ -2,14 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import data from '../data/slideshow';
 import './default.css';
 
-const Image = (props) => {
+const Image = () => {
     const [index, setIndex] = useState(0);
     const renderCount = useRef(0);
 
     const slideshowImages = data.map((slide, index) => {
         return (
             <>
-                <img key={index} src={slide.url} />
+                <img key={index} src={slide.url} alt="" />
             </>
         )
     });
@@ -21,7 +21,7 @@ const Image = (props) => {
         }, 5000)
 
         return () => clearInterval(intervalId);
-    }, [])
+    }, [slideshowImages.length])
 
     return (
         <div className="image-container">
