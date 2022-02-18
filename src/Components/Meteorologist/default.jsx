@@ -2,7 +2,7 @@ import React from 'react';
 import data from '../data/forecast';
 import './default.css';
 
-const Meteorologist = () => {
+const Meteorologist = ({ site }) => {
     console.log('data[0]: ', data[0])
 
     return (
@@ -19,7 +19,6 @@ const Meteorologist = () => {
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }

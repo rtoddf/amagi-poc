@@ -1,33 +1,33 @@
 import Meteorologist from './Components/Meteorologist/default';
 import Image from './Components/Image/default';
-import Video from './Components/Video/default';
 import Forecast from './Components/Forecast/default';
 import './css/base.css';
 
 function App() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const site = urlParams.get('site') || undefined;
+  const delay = urlParams.get('delay') || undefined;
+
   return (
     <div className="wrapper">
       <div className="row01">
         <div className="slot01">
-          <Meteorologist />
+      <Meteorologist site={site} />
         </div>
         <div className="slot02">
-          <Image />
-        </div>
-        <div className="slot03">
-          <Video />
+      <Image delay={delay} site={site} />
         </div>
       </div>
 
       <div className="row02">
         <div className="slot01">
-          <Forecast />
+          <Forecast site={site} />
         </div>
       </div>
 
       <div className="row3">
         <div className="slot01">
-          
+
         </div>
       </div>
     </div>
