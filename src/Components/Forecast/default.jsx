@@ -2,9 +2,10 @@ import React from 'react';
 import data from '../data/forecast';
 import './default.css';
 
-const Forecast = (props) => {
+const Forecast = ({ site = 'wsb' }) => {
+  const siteData = data[site];
     // this can be done differently
-    const weatherDays = (data[0].days).map((day, index) => (
+    const weatherDays = (siteData.days).map((day, index) => (
         <div key={index} className="day">
             <div className="name">{day.dayname}</div>
             <div className="icon">

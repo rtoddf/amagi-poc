@@ -1,5 +1,77 @@
 const slideshow = {
-  'wsbtv': [
+  'kiro': [
+    {
+      alt: 'alt tag',
+      url: 'http://mediaweb.kirotv.com/weather/metro-dce.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'http://mediaweb.kirotv.com/weather/tomorrowhighs.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.kirotv.com/weather/Bli-Radar-DCE.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.kirotv.com/weather/Eastside-Radar-DCE.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.kirotv.com/weather/Metro-Radar-DCE.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.kirotv.com/weather/N-Coast-Radar-DCE.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.kirotv.com/weather/olympia-dce.jpg',
+    },
+  ],
+  'wsb': [
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/highs.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/highs2.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/highs.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/lows2.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/highs.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/time1.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/time2.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/time3.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/GB_Currents.jpg',
+    },
+    {
+      alt: 'alt tag',
+      url: 'https://mediaweb.wsbtv.com/weather/DMA%20Metro.jpg',
+    },
+  ],
+  'wjax': [
     {
       alt: 'alt tag',
       url: 'https://mediaweb.actionnewsjax.com/weather/First_Alert_Radar.jpg',

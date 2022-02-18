@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import data from '../data/slideshow';
 import './default.css';
 
-const Image = ({ site = 'wsbtv', delay = 5 }) => {
+const Image = ({ site = 'wsb', delay = 5 }) => {
   const [index, setIndex] = useState(0);
   const renderCount = useRef(0);
 
