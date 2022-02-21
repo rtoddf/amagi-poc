@@ -1,6 +1,12 @@
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from 'react-router-dom/cjs/react-router-dom.min';
 import Meteorologist from './Components/Meteorologist/default';
 import Image from './Components/Image/default';
 import Forecast from './Components/Forecast/default';
+import FullScreen from './Components/FullScreen/default';
 import './css/base.css';
 
 function App() {
@@ -9,28 +15,33 @@ function App() {
   const delay = urlParams.get('delay') || undefined;
 
   return (
-    <div className="wrapper">
-      <div className="row01">
-        <div className="slot01">
-      <Meteorologist site={site} />
-        </div>
-        <div className="slot02">
-      <Image delay={delay} site={site} />
-        </div>
+    <Router>
+      <div className='wrapper'>
+        <Switch>
+          <Route exact path='/'>
+            <div className='row01'>
+              <div className='slot01'>
+                <Meteorologist site={site} />
+              </div>
+              <div className='slot02'>
+                <Image delay={delay} site={site} />
+              </div>
+            </div>
+            <div className='row02'>
+              <div className='slot01'>
+                <Forecast site={site} />
+              </div>
+            </div>
+            <div className='row3'>
+              <div className='slot01'></div>
+            </div>
+          </Route>
+          <Route path='/fullscreen'>
+            <FullScreen delay={delay} site={site} />
+          </Route>
+        </Switch>
       </div>
-
-      <div className="row02">
-        <div className="slot01">
-          <Forecast site={site} />
-        </div>
-      </div>
-
-      <div className="row3">
-        <div className="slot01">
-
-        </div>
-      </div>
-    </div>
+    </Router>
   );
 }
 
