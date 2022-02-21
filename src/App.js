@@ -6,7 +6,9 @@ import {
 import Meteorologist from './Components/Meteorologist/default';
 import Image from './Components/Image/default';
 import Forecast from './Components/Forecast/default';
-import FullScreen from './Components/FullScreen/default';
+
+import slideshowImages from './Components/data/slideshow';
+import fullScreenImages from './Components/data/weather-images';
 import './css/base.css';
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
                 <Meteorologist site={site} />
               </div>
               <div className='slot02'>
-                <Image delay={delay} site={site} />
+                <Image delay={delay} site={site} images={slideshowImages} />
               </div>
             </div>
             <div className='row02'>
@@ -37,7 +39,12 @@ function App() {
             </div>
           </Route>
           <Route path='/fullscreen'>
-            <FullScreen delay={delay} site={site} />
+            <Image
+              delay={delay}
+              site={site}
+              images={fullScreenImages}
+              fullScreen={true}
+            />
           </Route>
         </Switch>
       </div>
