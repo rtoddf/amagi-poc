@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import data from '../data/slideshow';
 import './default.css';
 
-const Image = ({ site = 'wsb', delay = 5 }) => {
+const Image = ({ site = 'wsb', delay = 5, images, fullScreen=false }) => {
   const [index, setIndex] = useState(0);
   const renderCount = useRef(0);
 
-  const slideshowImages = data[site].map((slide, index) => {
+  const slideshowImages = images[site].map((slide, index) => {
     return (
       <>
         <img key={index} src={slide.url} alt="" />
@@ -24,7 +23,7 @@ const Image = ({ site = 'wsb', delay = 5 }) => {
   }, [slideshowImages.length, delay])
 
   return (
-    <div className="image-container">
+    <div className={`image-container ${fullScreen ? 'full-screen' : ''}`}>
       <section>
         {slideshowImages.map((image, i) => {
           return (
