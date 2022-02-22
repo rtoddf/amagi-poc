@@ -22,7 +22,9 @@ const CurrentConditions = ({ site, content }) => {
                     <div className="conditions">
                         {current.wx_phrase && (current.wx_phrase)}
                     </div>
-                    <div className="feels-like">Feels like {current.feels_like && (current.feels_like)}&deg;</div>
+                    <div className="feels-like">
+                        Feels like {current.feels_like && (current.feels_like)}&deg;
+                    </div>
                 </>
             )}
         </div>

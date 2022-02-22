@@ -1,4 +1,5 @@
 import React from 'react';
+import { getShortDayName } from '../utilities/helpers';
 import './default.css';
 
 const Forecast = ({ site = 'wsb', content }) => {
@@ -10,7 +11,7 @@ const Forecast = ({ site = 'wsb', content }) => {
         for (let key in forecast) {
             weatherDays.push(
                 <div className="day">
-                    <div className="name">{forecast[key].dayOfWeek}</div>
+                    <div className="name">{getShortDayName(forecast[key].dayOfWeek)}</div>
                     <div className="icon">
                         <img src={`https://www.wftv.com/pf/resources/images/weather/status-icons/${forecast[key].day.iconCode}.png?d=348`} alt="" />
                     </div>
@@ -19,7 +20,7 @@ const Forecast = ({ site = 'wsb', content }) => {
                         <span className="temp-max">{forecast[key].calendarDayTemperatureMax}&deg;</span> |&nbsp;
                         <span className="temp-min">{forecast[key].calendarDayTemperatureMin}&deg;</span>
                     </div>
-                    <div className="rainchance">{forecast[key].day.precipChance}</div>
+                    <div className="precip-chance">{forecast[key].day.precipChance}</div>
                 </div>
             )
         }

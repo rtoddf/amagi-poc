@@ -46,7 +46,7 @@
     opacity: .6;
 }
 
-.weather-forecast .rainchance {
+.weather-forecast .precip-chance {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 24px;

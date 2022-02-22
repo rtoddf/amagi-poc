@@ -1,11 +1,11 @@
 import React from 'react';
-import data from '../data/forecast';
 import './default.css';
 
 const Meteorologist = ({ site, content }) => {
-  const siteData = data[site];
   const meteorologist = content['meteorologist'];
   const metImage = content["metImage"];
+
+  console.log('meteorologist: ', meteorologist)
 
   return (
     <div className="meteorologist">
@@ -26,7 +26,7 @@ const Meteorologist = ({ site, content }) => {
             </div>
             {/* you need logic for the emblem */}
             <div className="emblem">
-              <img src={siteData.emblemurl} alt="" />
+              <img src="https://www.wsbtv.com/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348" alt="" />
             </div>
           </div>
         </div>
