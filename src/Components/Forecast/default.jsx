@@ -4,7 +4,6 @@ import './default.css';
 
 const Forecast = ({ site = 'wsb' }) => {
   const siteData = data[site];
-    // this can be done differently
     const weatherDays = (siteData.days).map((day, index) => (
         <div key={index} className="day">
             <div className="name">{day.dayname}</div>
