@@ -22,7 +22,7 @@ function App() {
 
   const [content, setContent] = useState({});
 
-  const { siteID, zipCode, websiteDomain, metCollectionAlias, resizerKey } =
+  const { siteID, zipCode, websiteDomain, metCollectionAlias } =
     siteProperties[site];
 
   useEffect(() => {
@@ -32,14 +32,6 @@ function App() {
           url: `${websiteDomain}/pf/api/v3/content/fetch/weather-api?query={"metCollectionAlias":"${metCollectionAlias}","website":"${siteID}","zipCode":"${zipCode}"}&d=359&_website=${siteID}`,
           method: 'GET',
         });
-
-        const metImage = weatherContent['metImage']
-          ? weatherContent['metImage'].match(/https:\/\/(.+)/)[1]
-          : '';
-
-        weatherContent[
-          'resizedMetImage'
-        ] = `https://cmg-${siteID}-prod.cdn.arcpublishing.com/resizer/${resizerKey}=/fit-in/158x0/filters:quality(70):fill(white):background_color(white)/${metImage}`;
 
         setContent(weatherContent);
 
