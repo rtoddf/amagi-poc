@@ -6,7 +6,7 @@ const Meteorologist = ({ site, content }) => {
   console.log(`data['${site}']: `, data[site]);
   const siteData = data[site];
   const meteorologist = content['meteorologist'];
-  const metImage = content["resizedMetImage"];
+  const metImage = content["metImage"];
 
   return (
     <div className="meteorologist">

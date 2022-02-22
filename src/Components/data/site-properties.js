@@ -552,7 +552,6 @@ const siteProperties = {
     "siteID": "cmg-rd-20114"
   },
   "wsb": {
-    "resizerKey": "eRzR_k5LBZKCMh4ic9WPgyS06ao",
     "metCollectionAlias": "met-forecast",
     "stationID": "wsbtv",
     "websiteDomain": "https://www.wsbtv.com",
@@ -597,7 +596,6 @@ const siteProperties = {
     "siteID": "cmg-tv-10040"
   },
   "wjax": {
-    "resizerKey": "l-19FD6DJvQj0EJIY32S2ONip18",
     "metCollectionAlias": "met-forecast",
     "stationID": "wjax",
     "websiteDomain": "https://www.actionnewsjax.com",
@@ -642,7 +640,6 @@ const siteProperties = {
     "siteID": "cmg-tv-10080"
   },
   "kiro": {
-    "resizerKey": "j3h2PgOnGjuX6x6COmJtBv4neWs",
     "metCollectionAlias": "met-forecast",
     "stationID": "kiro",
     "websiteDomain": "https://www.kiro7.com",
