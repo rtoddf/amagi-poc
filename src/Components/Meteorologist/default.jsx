@@ -1,4 +1,5 @@
 import React from 'react';
+import { metCertLogo } from '../utilities/helpers';
 import './default.css';
 
 const Meteorologist = ({ site, content }) => {
@@ -24,9 +25,9 @@ const Meteorologist = ({ site, content }) => {
             <div className="name">
               {meteorologist.firstName && (meteorologist.firstName)} {meteorologist.lastName && (meteorologist.lastName)}
             </div>
-            {/* you need logic for the emblem */}
-            <div className="emblem">
-              <img src="https://www.wsbtv.com/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348" alt="" />
+            {/* you need logic for the cert-logo */}
+            <div className="cert-logo">
+              <img src={metCertLogo(meteorologist.education[0].name)} alt="" />
             </div>
           </div>
         </div>

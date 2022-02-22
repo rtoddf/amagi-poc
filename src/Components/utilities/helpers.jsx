@@ -29,3 +29,19 @@ export function getShortDayName(day) {
 
     return dayName;
 }
+
+export function metCertLogo(cert) {
+    console.log('cert: ', cert)
+
+    let certLogo;
+
+    switch (cert) {
+        case 'AMS Certified':
+            certLogo = 'https://www.wsbtv.com/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348';
+            break;
+        default:
+            certLogo = '';
+    }
+
+    return certLogo;
+}
