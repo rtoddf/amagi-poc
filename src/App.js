@@ -50,13 +50,13 @@ function App() {
             <div className='row01'>
               <div className='slot01'>
                 <Meteorologist
-                  site={site}
+                  websiteDomain={websiteDomain}
                   content={content}
                   metImage={content.metImage}
                 />
               </div>
               <div className='slot02'>
-                <CurrentConditions site={site} content={content} />
+                <CurrentConditions websiteDomain={websiteDomain} content={content} />
               </div>
               <div className='slot03'>
                 <Image delay={delay} site={site} images={slideshowImages} />
@@ -64,7 +64,7 @@ function App() {
             </div>
             <div className='row02'>
               <div className='slot01'>
-                <Forecast site={site} content={content} />
+                <Forecast websiteDomain={websiteDomain} content={content} />
               </div>
             </div>
             <div className='row3'>

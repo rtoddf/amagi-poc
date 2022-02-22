@@ -2,7 +2,7 @@ import React from 'react';
 import { getShortDayName } from '../utilities/helpers';
 import './default.css';
 
-const Forecast = ({ site = 'wsb', content }) => {
+const Forecast = ({ websiteDomain, content }) => {
     const forecast = content['forecast'];
     let weatherDays = [];
 
@@ -12,7 +12,7 @@ const Forecast = ({ site = 'wsb', content }) => {
                 <div key={forecast[key].day.daypartName} className="day">
                     <div className="name">{getShortDayName(forecast[key].dayOfWeek)}</div>
                     <div className="icon">
-                        <img src={`https://www.wftv.com/pf/resources/images/weather/status-icons/${forecast[key].day.iconCode}.png?d=348`} alt="" />
+                        <img src={`${websiteDomain}/pf/resources/images/weather/status-icons/${forecast[key].day.iconCode}.png?d=348`} alt="" />
                     </div>
                     <div className="conditions">{forecast[key].day.wxPhraseLong}</div>
                     <div className="temps">

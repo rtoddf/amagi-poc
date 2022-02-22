@@ -2,7 +2,7 @@ import React from 'react';
 import { metCertLogo } from '../utilities/helpers';
 import './default.css';
 
-const Meteorologist = ({ site, content }) => {
+const Meteorologist = ({ websiteDomain, content }) => {
   const meteorologist = content['meteorologist'];
   const metImage = content["metImage"];
 
@@ -13,9 +13,9 @@ const Meteorologist = ({ site, content }) => {
       {meteorologist && (
         <div className="flex-container">
           <div className="profile-pic">
-            <img 
-              src={metImage && (metImage)} 
-              alt={meteorologist.byline && (meteorologist.byline)} 
+            <img
+              src={metImage && (metImage)}
+              alt={meteorologist.byline && (meteorologist.byline)}
             />
           </div>
           <div className="profile-data">
@@ -26,10 +26,10 @@ const Meteorologist = ({ site, content }) => {
               {meteorologist.firstName && (meteorologist.firstName)} {meteorologist.lastName && (meteorologist.lastName)}
             </div>
             {/* you need logic for the cert-logo */}
-            <div className="cert-logo">{metCertLogo(meteorologist.education)}</div>
+            <div className="cert-logo">{metCertLogo(meteorologist.education, websiteDomain)}</div>
           </div>
         </div>
-        
+
       )}
     </div>
   )

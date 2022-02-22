@@ -192,6 +192,226 @@ const slideshow = {
       "url": "https://mediaweb.actionnewsjax.com/weather/zone_forecast_metro.jpg",
       "title": "Metro Forecast"
     }
+  ],
+  "whio": [
+    {
+      "url": "https://mediaweb.whio.com/weather/5day.jpg",
+      "title": "5-day forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Auglaize%20Co%20Temps.jpg",
+      "title": "Auglaize County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Auglaize%20Co%20Today.jpg",
+      "title": "Auglaize County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Auglaize%20County%20Radar.jpg",
+      "title": "Auglaize County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Butler%20Co%20Temps%20.jpg",
+      "title": "Butler County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Butler%20Co%20Today.jpg",
+      "title": "Butler County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Butler%20County%20Radar.jpg",
+      "title": "Butler County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Champaign%20Co%20Temperatures.jpg",
+      "title": "Champaign County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Champaign%20Co%20Today.jpg",
+      "title": "Champaign County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Champain%20County%20Radar.jpg",
+      "title": "Champaign County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Clark%20Co%20Temps.jpg",
+      "title": "Clark County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Clark%20Co%20Today%20.png",
+      "title": "Clark County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Clark%20County%20Radar.jpg",
+      "title": "Clark County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Darke%20Co%20Temps.jpg",
+      "title": "Darke County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Darke%20Co%20Today%20.jpg",
+      "title": "Darke County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Darke%20County%20Radar.jpg",
+      "title": "Darke County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/DMA%20Visibility.jpg",
+      "title": "Miami Valley Visbility"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/DMA%20Watches%20Warnings.jpg",
+      "title": "Current Alerts"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Greene%20Co%20Temps%20.jpg",
+      "title": "Greene County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Greene%20Co%20Today.jpg",
+      "title": "Greene County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Greene%20County%20Radar.jpg",
+      "title": "Greene County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Live%20Doppler%207.jpg",
+      "title": "Live Doppler 7"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Logan%20Co%20Temps%20.jpg",
+      "title": "Logan County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Logan%20Co%20Today.jpg",
+      "title": "Logan County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Logan%20County%20Radar.png",
+      "title": "Logan County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Mercer%20Co%20Temps%20.jpg",
+      "title": "Mercer County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Mercer%20Co%20Today%20.jpg",
+      "title": "Mercer County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Mercer%20County%20Radar.jpg",
+      "title": "Mercer County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Miami%20Co%20Temps.jpg",
+      "title": "Miami County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Miami%20Co%20Today.jpg",
+      "title": "Miami County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Miami%20County%20Radar.jpg",
+      "title": "Miami County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Miami%20Valley%20Temps.jpg",
+      "title": "Miami Valley Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Miami%20Valley%20Wind%20Speed.jpg",
+      "title": "Miami Vallery Wind Speed & Direction"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Montgomery%20Co%20Temps%20.jpg",
+      "title": "Montgomery County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Montgomery%20Co%20Today.jpg",
+      "title": "Montgomery County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Montgomery%20County%20Radar.jpg",
+      "title": "Montgomery County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/National%20Airport%20Delays.jpg",
+      "title": "National Airport Delays"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/National%20SatRad.jpg",
+      "title": "National Satellite & Radar"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Preble%20Co%20Temps.jpg",
+      "title": "Preble County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Preble%20Co%20Today.jpg",
+      "title": "Preble County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Preble%20County%20Radar.jpg",
+      "title": "Preble County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Redional%20SatRad%20.jpg",
+      "title": "Regional Satellite & Radar"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Redional%20SatRad%20.jpg",
+      "title": "Regional Satellite & Radar"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Regional%20Airport%20Delays.jpg",
+      "title": "Regional Airport Delays"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Shelby%20Co%20Temps%20.jpg",
+      "title": "Shelby County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Shelby%20Co%20Today%20.jpg",
+      "title": "Shelby County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Shelby%20County%20Radar.jpg",
+      "title": "Shelby County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Warren%20Co%20Temps%20.jpg",
+      "title": "Warren County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Warren%20Co%20Today.jpg",
+      "title": "Warren County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Warren%20County%20Radar.jpg",
+      "title": "Warren County: Live Doppler"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Wayne%20Co%20Temps.jpg",
+      "title": "Wayne County: Current Temperatures"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Wayne%20Co%20Today%20.jpg",
+      "title": "Wayne County: County Forecast"
+    },
+    {
+      "url": "https://mediaweb.whio.com/weather/Wayne%20County%20Radar.jpg",
+      "title": "Wayne County: Live Doppler"
+    }
+  ],
+  "": [
+    {
+      "url": "",
+      "title": ""
+    }
   ]
 };
 

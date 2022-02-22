@@ -1,7 +1,7 @@
 import React from 'react';
 import './default.css';
 
-const CurrentConditions = ({ site, content }) => {
+const CurrentConditions = ({ websiteDomain, content }) => {
     const current = content['current'];
     // need the correct url with site for icon
     return (
@@ -16,7 +16,7 @@ const CurrentConditions = ({ site, content }) => {
                             {current.temp && (current.temp)}&deg;
                         </div>
                         <div className="icon">
-                            <img src={`https://www.wftv.com/pf/resources/images/weather/status-icons/${current.wx_icon}.png?d=348`} alt="" />
+                            <img src={`${websiteDomain}/pf/resources/images/weather/status-icons/${current.wx_icon}.png?d=348`} alt="" />
                         </div>
                     </div>
                     <div className="conditions">

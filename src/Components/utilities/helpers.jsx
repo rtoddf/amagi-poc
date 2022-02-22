@@ -34,17 +34,21 @@ export function getShortDayName(day) {
 
 // we loop through all the certifications and add the respective images
 // need to ask Sara for all certifications and corresponding images
-export function metCertLogo(certs) {
-    let certLogos = [];
+export function metCertLogo(certs, websiteDomain) {
+  let certLogos = [];
 
-    certs.forEach(function(cert, index) {
-        switch (cert.name) {
-            case 'AMS Certified':
-                certLogos.push(<img key={index} src='https://www.wsbtv.com/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348' alt="AMS Certified" />);
-                break;
-            default:
-        }
-    });
-
-    return certLogos;
+  certs.forEach(function(cert, index) {
+    switch (cert.name) {
+    case 'AMS Certified':
+      certLogos.push(
+        <img
+          key={index}
+          src={`${websiteDomain}/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348`} alt="AMS Certified"
+        />
+      );
+      break;
+    default:
+    }
+  });
+  return certLogos;
 }
