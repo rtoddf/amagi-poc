@@ -1,20 +1,29 @@
 import React from 'react';
-import data from '../data/forecast';
 import './default.css';
 
-const Forecast = ({ site = 'wsb' }) => {
-  const siteData = data[site];
-    const weatherDays = (siteData.days).map((day, index) => (
-        <div key={index} className="day">
-            <div className="name">{day.dayname}</div>
-            <div className="icon">
-                <img src={day.icon} alt="" />
-            </div>
-            <div className="conditions">{day.conditions}</div>
-            <div className="temps"><span className="high">{day.hightemp}&deg;</span> | <span className="low">{day.lowtemp}&deg;</span></div>
-            <div className="rainchance">{day.rainchance}</div>
-        </div>
-    ));
+const Forecast = ({ site = 'wsb', content }) => {
+    const forecast = content['forecast'];
+    console.log('forecast: ', forecast)
+    let weatherDays = [];
+
+    if(forecast) {
+        for (let key in forecast) {
+            weatherDays.push(
+                <div className="day">
+                    <div className="name">{forecast[key].dayOfWeek}</div>
+                    <div className="icon">
+                        <img src={`https://www.wftv.com/pf/resources/images/weather/status-icons/${forecast[key].day.iconCode}.png?d=348`} alt="" />
+                    </div>
+                    <div className="conditions">{forecast[key].day.wxPhraseLong}</div>
+                    <div className="temps">
+                        <span className="temp-max">{forecast[key].calendarDayTemperatureMax}&deg;</span> |&nbsp;
+                        <span className="temp-min">{forecast[key].calendarDayTemperatureMin}&deg;</span>
+                    </div>
+                    <div className="rainchance">{forecast[key].day.precipChance}</div>
+                </div>
+            )
+        }
+    }
 
     return (
         <div className="weather-forecast">

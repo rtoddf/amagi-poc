@@ -72,7 +72,7 @@ function App() {
             </div>
             <div className='row02'>
               <div className='slot01'>
-                <Forecast site={site} />
+                <Forecast site={site} content={content} />
               </div>
             </div>
             <div className='row3'>

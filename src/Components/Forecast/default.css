@@ -42,7 +42,7 @@
     line-height: 36px;
 }
 
-.weather-forecast .temps .low {
+.weather-forecast .temps .temp-min {
     opacity: .6;
 }
 
