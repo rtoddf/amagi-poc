@@ -26,9 +26,7 @@ const Meteorologist = ({ site, content }) => {
               {meteorologist.firstName && (meteorologist.firstName)} {meteorologist.lastName && (meteorologist.lastName)}
             </div>
             {/* you need logic for the cert-logo */}
-            <div className="cert-logo">
-              <img src={metCertLogo(meteorologist.education[0].name)} alt="" />
-            </div>
+            <div className="cert-logo">{metCertLogo(meteorologist.education)}</div>
           </div>
         </div>
         

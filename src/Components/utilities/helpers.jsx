@@ -1,3 +1,5 @@
+// days of the week come in as full day names
+// need to shorten to reflect UX design
 export function getShortDayName(day) {
     let dayName;
 
@@ -30,18 +32,19 @@ export function getShortDayName(day) {
     return dayName;
 }
 
-export function metCertLogo(cert) {
-    console.log('cert: ', cert)
+// we loop through all the certifications and add the respective images
+// need to ask Sara for all certifications and corresponding images
+export function metCertLogo(certs) {
+    let certLogos = [];
 
-    let certLogo;
+    certs.forEach(function(cert, index) {
+        switch (cert.name) {
+            case 'AMS Certified':
+                certLogos.push(<img key={index} src='https://www.wsbtv.com/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348' alt="AMS Certified" />);
+                break;
+            default:
+        }
+    });
 
-    switch (cert) {
-        case 'AMS Certified':
-            certLogo = 'https://www.wsbtv.com/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348';
-            break;
-        default:
-            certLogo = '';
-    }
-
-    return certLogo;
+    return certLogos;
 }
