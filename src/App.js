@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom/cjs/react-router-dom.min';
 import axios from 'axios';
 import Meteorologist from './Components/Meteorologist/default';
+import CurrentConditions from './Components/CurrentConditions/default';
 import Image from './Components/Image/default';
 import Forecast from './Components/Forecast/default';
 
@@ -21,7 +22,8 @@ function App() {
 
   const [content, setContent] = useState({});
 
-  const {siteID, zipCode, websiteDomain, metCollectionAlias, resizerKey} = siteProperties[site];
+  const { siteID, zipCode, websiteDomain, metCollectionAlias, resizerKey } =
+    siteProperties[site];
 
   useEffect(() => {
     (async () => {
@@ -31,12 +33,17 @@ function App() {
           method: 'GET',
         });
 
-        const metImage = weatherContent["metImage"] ? weatherContent["metImage"].match(/https:\/\/(.+)/)[1] : '';
+        const metImage = weatherContent['metImage']
+          ? weatherContent['metImage'].match(/https:\/\/(.+)/)[1]
+          : '';
 
-        weatherContent["resizedMetImage"] = `https://cmg-${siteID}-prod.cdn.arcpublishing.com/resizer/${resizerKey}=/fit-in/158x0/filters:quality(70):fill(white):background_color(white)/${metImage}`;
+        weatherContent[
+          'resizedMetImage'
+        ] = `https://cmg-${siteID}-prod.cdn.arcpublishing.com/resizer/${resizerKey}=/fit-in/158x0/filters:quality(70):fill(white):background_color(white)/${metImage}`;
 
         setContent(weatherContent);
 
+        // console.log('content: ', content);
       } catch (err) {
         debugger;
       }
@@ -50,15 +57,22 @@ function App() {
           <Route exact path='/'>
             <div className='row01'>
               <div className='slot01'>
-      <Meteorologist site={site} content={content}/>
+                <Meteorologist
+                  site={site}
+                  content={content}
+                  metImage={content.metImage}
+                />
               </div>
               <div className='slot02'>
+                <CurrentConditions site={site} content={content} />
+              </div>
+              <div className='slot03'>
                 <Image delay={delay} site={site} images={slideshowImages} />
               </div>
             </div>
             <div className='row02'>
               <div className='slot01'>
-                <Forecast site={site} />
+                <Forecast site={site} content={content} />
               </div>
             </div>
             <div className='row3'>

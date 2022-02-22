@@ -4,6 +4,8 @@
 }
 
 .weather-forecast .day {
+    display: flex;
+    flex-direction: column;
     border-right: 1px solid rgba(255, 255, 255, .2);
     flex: 1;
     text-align: center;
@@ -30,6 +32,7 @@
 }
 
 .weather-forecast .conditions {
+    min-height: 100px;
     font-size: 1.625rem;
     font-weight: 400;
     line-height: 28px;
@@ -42,12 +45,20 @@
     line-height: 36px;
 }
 
-.weather-forecast .temps .low {
+.weather-forecast .temps .temp-min {
     opacity: .6;
 }
 
-.weather-forecast .rainchance {
+.weather-forecast .precip-chance {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 24px;
+}
+
+svg.icon_xs {
+    height: 1.125rem;
+}
+
+.margin-xxs-right {
+    margin-right: 0.25rem;
 }
