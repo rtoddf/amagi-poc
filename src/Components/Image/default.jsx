@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './default.css';
 
-const Image = ({ site = 'wsb', delay = '5', images, fullScreen=false }) => {
+const Image = ({ site, delay, images, fullScreen=false }) => {
   const [index, setIndex] = useState(0);
   const renderCount = useRef(0);
   const [imageDelay, loopDelay = 0] = delay.split(',').map((d, i) => parseInt(d));

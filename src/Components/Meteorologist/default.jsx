@@ -2,15 +2,17 @@ import React from 'react';
 import data from '../data/forecast';
 import './default.css';
 
-const Meteorologist = ({ site = 'wsb' }) => {
+const Meteorologist = ({ site, content }) => {
   console.log(`data['${site}']: `, data[site]);
   const siteData = data[site];
+  const meteorologist = content['meteorologist'];
+  const metImage = content["resizedMetImage"];
 
   return (
     <div className="meteorologist">
       <div className="flex-container">
         <div className="profile-pic">
-          <img src={siteData.meteorologistimage} alt="" />
+          <img src={metImage} alt="" />
         </div>
         <div className="profile-data">
           <div className="heading">Forecast by <span className="title">{siteData.meteorologisttitle}</span></div>
