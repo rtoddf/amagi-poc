@@ -52,3 +52,7 @@ export function metCertLogo(certs, websiteDomain) {
   });
   return certLogos;
 }
+
+export function padIconCode(iconCode = '') {
+  return (iconCode+'').padStart(2, '0');
+}
