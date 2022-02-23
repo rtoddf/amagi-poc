@@ -10,7 +10,6 @@ const Forecast = ({ websiteDomain, content }) => {
     const days = Object.keys(forecast).slice(1); // Skip today
 
     days.forEach((day) => {
-      console.log('MAYS WANTS', forecast[day]);
       const iconCode = padIconCode(forecast[day].day.iconCode);
 
       weatherDays.push(

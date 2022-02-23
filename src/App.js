@@ -34,7 +34,6 @@ function App() {
         });
 
         setContent(weatherContent);
-
         // console.log('content: ', content);
       } catch (err) {
         debugger;
