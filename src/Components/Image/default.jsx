@@ -7,7 +7,7 @@ const Image = ({ site, delay, images, wxGroup, fullScreen=false }) => {
   const [imageDelay, loopDelay = 0] = delay.split(',').map((d, i) => parseInt(d));
 
   const slideshowImages = images[site]
-        .filter(slide => !slide.wxGroup || slide.wxGroup === wxGroup)
+        .filter(slide => !slide.wxGroup || !wxGroup || slide.wxGroup === wxGroup)
         .map((slide, index) => {
           return (
             <>

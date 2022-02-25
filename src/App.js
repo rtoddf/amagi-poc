@@ -19,7 +19,7 @@ function App() {
   const urlParams = new URLSearchParams(window.location.search);
   const site = urlParams.get('site') || 'wsb';
   const delay = urlParams.get('delay') || '5';
-  const wxGroup = urlParams.get('wxGroup') || 'days';
+  const wxGroup = urlParams.get('wxGroup') || '';
   const currentDeployment = urlParams.get('d');
 
   const [content, setContent] = useState({});
