@@ -1,10 +1,57 @@
+import axios from 'axios';
+
+const deployment = { d: 362 };
+
+async function getLatestDeployment (websiteDomain, currentDeployment) {
+  if (currentDeployment) {
+    deployment.d = parseInt(currentDeployment);
+  }
+
+  const startingD = deployment.d;
+  while (Math.abs(startingD - deployment.d) < 10) {
+    try {
+      await axios({
+        url: websiteDomain + `?d=${deployment.d}`,
+        method: 'GET',
+      });
+      console.log('The latest deployment:', deployment);
+      break;
+    } catch (err) {
+      console.log('No longer the latest deployment:', deployment);
+      deployment.d += 1;
+      continue;
+    }
+  }
+}
+
+export async function getWeatherContent ({
+  websiteDomain, metCollectionAlias, siteID, zipCode, currentDeployment
+}) {
+  await getLatestDeployment(websiteDomain, currentDeployment);
+
+  try {
+    const { data } = await axios({
+      url: getWeatherEndpoint(websiteDomain, metCollectionAlias, siteID, zipCode),
+      method: 'GET',
+    });
+
+    return data;
+  } catch (err) {
+    debugger;
+  }
+}
+
+export function getWeatherEndpoint(websiteDomain, metCollectionAlias, siteID, zipCode) {
+  return `${websiteDomain}/pf/api/v3/content/fetch/weather-api?query={"metCollectionAlias":"${metCollectionAlias}","website":"${siteID}","zipCode":"${zipCode}"}&d=${deployment.d}&_website=${siteID}`;
+}
+
 export function getSiteLogo(websiteDomain, siteID) {
-  return `${websiteDomain}/pf/resources/images/sites/${siteID}/station-logo.png?d=362`;
+  return `${websiteDomain}/pf/resources/images/sites/${siteID}/station-logo.png?d=${deployment.d}`;
 }
 
 export function getIcon(websiteDomain, iconCode = '') {
   const paddedIconCode = (iconCode+'').padStart(2, '0');
-  return `${websiteDomain}/pf/resources/images/weather/status-icons/${paddedIconCode}.png?d=348`;
+  return `${websiteDomain}/pf/resources/images/weather/status-icons/${paddedIconCode}.png?d=${deployment.d}`;
 }
 
 export function getCityState(siteProps) {
@@ -22,7 +69,7 @@ export function metCertLogo(certs, websiteDomain) {
       certLogos.push(
         <img
           key={index}
-          src={`${websiteDomain}/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=348`} alt="AMS Certified"
+          src={`${websiteDomain}/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=${deployment.d}`} alt="AMS Certified"
         />
       );
       break;

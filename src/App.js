@@ -4,7 +4,6 @@ import {
   Route,
   Switch,
 } from 'react-router-dom/cjs/react-router-dom.min';
-import axios from 'axios';
 import Meteorologist from './Components/Meteorologist/default';
 import CurrentConditions from './Components/CurrentConditions/default';
 import Image from './Components/Image/default';
@@ -13,7 +12,7 @@ import Forecast from './Components/Forecast/default';
 import slideshowImages from './Components/data/slideshow';
 import fullScreenImages from './Components/data/weather-images';
 import siteProperties from './Components/data/site-properties';
-import { getCityState } from './Components/utilities/helpers';
+import { getCityState, getWeatherContent } from './Components/utilities/helpers';
 import './css/base.css';
 
 function App() {
@@ -21,6 +20,7 @@ function App() {
   const site = urlParams.get('site') || 'wsb';
   const delay = urlParams.get('delay') || '5';
   const wxGroup = urlParams.get('wxGroup') || 'days';
+  const currentDeployment = urlParams.get('d');
 
   const [content, setContent] = useState({});
 
@@ -29,16 +29,11 @@ function App() {
 
   useEffect(() => {
     (async () => {
-      try {
-        const { data: weatherContent } = await axios({
-          url: `${websiteDomain}/pf/api/v3/content/fetch/weather-api?query={"metCollectionAlias":"${metCollectionAlias}","website":"${siteID}","zipCode":"${zipCode}"}&d=359&_website=${siteID}`,
-          method: 'GET',
-        });
-
+      const weatherContent = await getWeatherContent({
+        websiteDomain, metCollectionAlias, siteID, zipCode, currentDeployment
+      });
+      if (weatherContent) {
         setContent(weatherContent);
-        console.log('content: ', content);
-      } catch (err) {
-        debugger;
       }
     })();
   }, []);
