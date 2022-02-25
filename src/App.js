@@ -20,6 +20,7 @@ function App() {
   const urlParams = new URLSearchParams(window.location.search);
   const site = urlParams.get('site') || 'wsb';
   const delay = urlParams.get('delay') || '5';
+  const wxGroup = urlParams.get('wxGroup') || 'days';
 
   const [content, setContent] = useState({});
 
@@ -60,7 +61,7 @@ function App() {
                 <CurrentConditions websiteDomain={websiteDomain} content={content} cityState={getCityState(siteProperties[site])}/>
               </div>
               <div className='slot03'>
-                <Image delay={delay} site={site} images={slideshowImages} />
+                <Image delay={delay} site={site} wxGroup={wxGroup} images={slideshowImages} />
               </div>
             </div>
             <div className='row02'>
@@ -76,6 +77,7 @@ function App() {
             <Image
               delay={delay}
               site={site}
+              wxGroup={wxGroup}
               images={fullScreenImages}
               fullScreen={true}
             />

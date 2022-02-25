@@ -33,10 +33,12 @@ if __name__ == "__main__":
             site = row["site"].lower()
             title = row["title"]
             imageUrl = row["imageUrl"]
+            wxGroup = row["wxGroup"].lower()
 
             weather_images[site].append({
                 "url": imageUrl,
-                "title": title
+                "title": title,
+                "wxGroup": wxGroup
             })
 
     with open(output_js_filename, 'w') as out_js:

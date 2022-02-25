@@ -1,102 +1,102 @@
-site,title,imageUrl
-WSB,5 Day Forecast,https://mediaweb.wsbtv.com/weather/5day.jpg 
-WSB,High Temperatures,https://mediaweb.wsbtv.com/weather/highs.jpg
-WSB,Highs Tomorrow,https://mediaweb.wsbtv.com/weather/highs2.jpg
-WSB,Low Temperatures,https://mediaweb.wsbtv.com/weather/lows2.jpg 
-WSB,Forecast 0-12 Hours,https://mediaweb.wsbtv.com/weather/time1.jpg 
-WSB,Forecast 12-24 Hours,https://mediaweb.wsbtv.com/weather/time2.jpg
-WSB,Forecast 24-36 Hours,https://mediaweb.wsbtv.com/weather/time3.jpg
-WSB,Current Temperatures,https://mediaweb.wsbtv.com/weather/GB_Currents.jpg
-WSB,DMA Metro,https://mediaweb.wsbtv.com/weather/DMA%20Metro.jpg
-KIRO,Tacoma,http://mediaweb.kirotv.com/weather/Daypart-Tacoma.jpg
-KIRO,Central Puget Sound,http://mediaweb.kirotv.com/weather/metro-dce.jpg
-KIRO,Tacoma Forecast,http://mediaweb.kirotv.com/weather/tomorrowhighs.jpg
-KIRO,5 Day Forecast,https://mediaweb.kirotv.com/weather/5-day-dce.jpg
-KIRO,North Sound Doppler,https://mediaweb.kirotv.com/weather/Bli-Radar-DCE.jpg
-KIRO,Bellingham,https://mediaweb.kirotv.com/weather/Daypart-Bellingham.jpg
-KIRO,Everett,https://mediaweb.kirotv.com/weather/Daypart-Everett.jpg
-KIRO,Olympia,https://mediaweb.kirotv.com/weather/Daypart-Olympia.jpg
-KIRO,Seattle,https://mediaweb.kirotv.com/weather/Daypart-Seattle.jpg
-KIRO,Eastside Doppler,https://mediaweb.kirotv.com/weather/Eastside-Radar-DCE.jpg
-KIRO,Central Sound Doppler,https://mediaweb.kirotv.com/weather/Metro-Radar-DCE.jpg
-KIRO,North Coast Doppler,https://mediaweb.kirotv.com/weather/N-Coast-Radar-DCE.jpg
-KIRO,Olympia Forecast,https://mediaweb.kirotv.com/weather/olympia-dce.jpg
-KIRO,South Coast Doppler,https://mediaweb.kirotv.com/weather/S-Coast-Radar-DCE.j
-KIRO,Tacoma Doppler,https://mediaweb.kirotv.com/weather/Tacoma-Radar-DCE.jpg
-KIRO,Storm Tracker Doppler,https://mediaweb.kirotv.com/weather/WW-RADAR-DCE.jpg
-KIRO,W. Wash. Satellite,https://mediaweb.kirotv.com/weather/ww-sat-dce.jpg
-WJAX,7 Day,https://mediaweb.actionnewsjax.com/weather/7_day.jpg
-WJAX,Coastal 7 Day,https://mediaweb.actionnewsjax.com/weather/accuzone_forecast_coastal.jpg
-WJAX,Inland 7 Day,https://mediaweb.actionnewsjax.com/weather/accuzone_forecast_inland.jpg
-WJAX,Temperature Map,https://mediaweb.actionnewsjax.com/weather/adi_temps.jpg
-WJAX,Beach,https://mediaweb.actionnewsjax.com/weather/beach.jpg
-WJAX,Boating,https://mediaweb.actionnewsjax.com/weather/boating.jpg
-WJAX,Burn Time,https://mediaweb.actionnewsjax.com/weather/Burntime.jpg
-WJAX,Metro Radar,https://mediaweb.actionnewsjax.com/weather/Duval_Zoom_Radar_2.jpg
-WJAX,Doppler,https://mediaweb.actionnewsjax.com/weather/First_Alert_Radar.jpg
-WJAX,Lighting,https://mediaweb.actionnewsjax.com/weather/lightning.jpg
-WJAX,NE Florida Radar,https://mediaweb.actionnewsjax.com/weather/NE_FL_Radar.jpg
-WJAX,Right Now in Duval,https://mediaweb.actionnewsjax.com/weather/Right%20Now_Duval.jpg
-WJAX,Right Now,https://mediaweb.actionnewsjax.com/weather/Right%20Now.jpg
-WJAX,SE Georgia Radar,https://mediaweb.actionnewsjax.com/weather/SE_GA_Radar_2.jpg
-WJAX,Sunrise & Sunset,https://mediaweb.actionnewsjax.com/weather/sunrise_sunset.jpg
-WJAX,Travel Forecast,https://mediaweb.actionnewsjax.com/weather/travel_forecast.jpg
-WJAX,Warnings,https://mediaweb.actionnewsjax.com/weather/warnings_2.jpg
-WJAX,Weekend Forecast,https://mediaweb.actionnewsjax.com/weather/Weekend_Forecast.jpg
-WJAX,Coastal Forecast,https://mediaweb.actionnewsjax.com/weather/zone_forecast_coastal.jpg
-WJAX,Inland Forecast,https://mediaweb.actionnewsjax.com/weather/zone_forecast_inland.jpg
-WJAX,Metro Forecast,https://mediaweb.actionnewsjax.com/weather/zone_forecast_metro.jpg
-WHIO,5-day forecast,https://mediaweb.whio.com/weather/5day.jpg
-WHIO,Auglaize County: Current Temperatures,https://mediaweb.whio.com/weather/Auglaize%20Co%20Temps.jpg
-WHIO,Auglaize County: County Forecast,https://mediaweb.whio.com/weather/Auglaize%20Co%20Today.jpg
-WHIO,Auglaize County: Live Doppler,https://mediaweb.whio.com/weather/Auglaize%20County%20Radar.jpg
-WHIO,Butler County: Current Temperatures,https://mediaweb.whio.com/weather/Butler%20Co%20Temps%20.jpg
-WHIO,Butler County: County Forecast,https://mediaweb.whio.com/weather/Butler%20Co%20Today.jpg
-WHIO,Butler County: Live Doppler,https://mediaweb.whio.com/weather/Butler%20County%20Radar.jpg
-WHIO,Champaign County: Current Temperatures,https://mediaweb.whio.com/weather/Champaign%20Co%20Temperatures.jpg
-WHIO,Champaign County: County Forecast,https://mediaweb.whio.com/weather/Champaign%20Co%20Today.jpg
-WHIO,Champaign County: Live Doppler,https://mediaweb.whio.com/weather/Champain%20County%20Radar.jpg
-WHIO,Clark County: Current Temperatures,https://mediaweb.whio.com/weather/Clark%20Co%20Temps.jpg
-WHIO,Clark County: County Forecast,https://mediaweb.whio.com/weather/Clark%20Co%20Today%20.png
-WHIO,Clark County: Live Doppler,https://mediaweb.whio.com/weather/Clark%20County%20Radar.jpg
-WHIO,Darke County: Current Temperatures,https://mediaweb.whio.com/weather/Darke%20Co%20Temps.jpg
-WHIO,Darke County: County Forecast,https://mediaweb.whio.com/weather/Darke%20Co%20Today%20.jpg
-WHIO,Darke County: Live Doppler,https://mediaweb.whio.com/weather/Darke%20County%20Radar.jpg
-WHIO,Miami Valley Visbility,https://mediaweb.whio.com/weather/DMA%20Visibility.jpg
-WHIO,Current Alerts,https://mediaweb.whio.com/weather/DMA%20Watches%20Warnings.jpg
-WHIO,Greene County: Current Temperatures,https://mediaweb.whio.com/weather/Greene%20Co%20Temps%20.jpg
-WHIO,Greene County: County Forecast,https://mediaweb.whio.com/weather/Greene%20Co%20Today.jpg
-WHIO,Greene County: Live Doppler,https://mediaweb.whio.com/weather/Greene%20County%20Radar.jpg
-WHIO,Live Doppler 7,https://mediaweb.whio.com/weather/Live%20Doppler%207.jpg
-WHIO,Logan County: Current Temperatures,https://mediaweb.whio.com/weather/Logan%20Co%20Temps%20.jpg
-WHIO,Logan County: County Forecast,https://mediaweb.whio.com/weather/Logan%20Co%20Today.jpg
-WHIO,Logan County: Live Doppler,https://mediaweb.whio.com/weather/Logan%20County%20Radar.png
-WHIO,Mercer County: Current Temperatures,https://mediaweb.whio.com/weather/Mercer%20Co%20Temps%20.jpg
-WHIO,Mercer County: County Forecast,https://mediaweb.whio.com/weather/Mercer%20Co%20Today%20.jpg
-WHIO,Mercer County: Live Doppler,https://mediaweb.whio.com/weather/Mercer%20County%20Radar.jpg
-WHIO,Miami County: Current Temperatures,https://mediaweb.whio.com/weather/Miami%20Co%20Temps.jpg
-WHIO,Miami County: County Forecast,https://mediaweb.whio.com/weather/Miami%20Co%20Today.jpg
-WHIO,Miami County: Live Doppler,https://mediaweb.whio.com/weather/Miami%20County%20Radar.jpg
-WHIO,Miami Valley Temperatures,https://mediaweb.whio.com/weather/Miami%20Valley%20Temps.jpg
-WHIO,Miami Vallery Wind Speed & Direction,https://mediaweb.whio.com/weather/Miami%20Valley%20Wind%20Speed.jpg
-WHIO,Montgomery County: Current Temperatures,https://mediaweb.whio.com/weather/Montgomery%20Co%20Temps%20.jpg
-WHIO,Montgomery County: County Forecast,https://mediaweb.whio.com/weather/Montgomery%20Co%20Today.jpg
-WHIO,Montgomery County: Live Doppler,https://mediaweb.whio.com/weather/Montgomery%20County%20Radar.jpg
-WHIO,National Airport Delays,https://mediaweb.whio.com/weather/National%20Airport%20Delays.jpg
-WHIO,National Satellite & Radar,https://mediaweb.whio.com/weather/National%20SatRad.jpg
-WHIO,Preble County: Current Temperatures,https://mediaweb.whio.com/weather/Preble%20Co%20Temps.jpg
-WHIO,Preble County: County Forecast,https://mediaweb.whio.com/weather/Preble%20Co%20Today.jpg
-WHIO,Preble County: Live Doppler,https://mediaweb.whio.com/weather/Preble%20County%20Radar.jpg
-WHIO,Regional Satellite & Radar,https://mediaweb.whio.com/weather/Redional%20SatRad%20.jpg
-WHIO,Regional Satellite & Radar,https://mediaweb.whio.com/weather/Redional%20SatRad%20.jpg
-WHIO,Regional Airport Delays,https://mediaweb.whio.com/weather/Regional%20Airport%20Delays.jpg
-WHIO,Shelby County: Current Temperatures,https://mediaweb.whio.com/weather/Shelby%20Co%20Temps%20.jpg
-WHIO,Shelby County: County Forecast,https://mediaweb.whio.com/weather/Shelby%20Co%20Today%20.jpg
-WHIO,Shelby County: Live Doppler,https://mediaweb.whio.com/weather/Shelby%20County%20Radar.jpg
-WHIO,Warren County: Current Temperatures,https://mediaweb.whio.com/weather/Warren%20Co%20Temps%20.jpg
-WHIO,Warren County: County Forecast,https://mediaweb.whio.com/weather/Warren%20Co%20Today.jpg
-WHIO,Warren County: Live Doppler,https://mediaweb.whio.com/weather/Warren%20County%20Radar.jpg
-WHIO,Wayne County: Current Temperatures,https://mediaweb.whio.com/weather/Wayne%20Co%20Temps.jpg
-WHIO,Wayne County: County Forecast,https://mediaweb.whio.com/weather/Wayne%20Co%20Today%20.jpg
-WHIO,Wayne County: Live Doppler,https://mediaweb.whio.com/weather/Wayne%20County%20Radar.jpg
-,,
+site,title,imageUrl,wxGroup
+WSB,5 Day Forecast,https://mediaweb.wsbtv.com/weather/5day.jpg ,days
+WSB,High Temperatures,https://mediaweb.wsbtv.com/weather/highs.jpg,days
+WSB,Highs Tomorrow,https://mediaweb.wsbtv.com/weather/highs2.jpg,days
+WSB,Low Temperatures,https://mediaweb.wsbtv.com/weather/lows2.jpg ,days
+WSB,Forecast 0-12 Hours,https://mediaweb.wsbtv.com/weather/time1.jpg ,days
+WSB,Forecast 12-24 Hours,https://mediaweb.wsbtv.com/weather/time2.jpg,days
+WSB,Forecast 24-36 Hours,https://mediaweb.wsbtv.com/weather/time3.jpg,days
+WSB,Current Temperatures,https://mediaweb.wsbtv.com/weather/GB_Currents.jpg,days
+WSB,DMA Metro,https://mediaweb.wsbtv.com/weather/DMA%20Metro.jpg,days
+KIRO,Tacoma,http://mediaweb.kirotv.com/weather/Daypart-Tacoma.jpg,days
+KIRO,Central Puget Sound,http://mediaweb.kirotv.com/weather/metro-dce.jpg,days
+KIRO,Tacoma Forecast,http://mediaweb.kirotv.com/weather/tomorrowhighs.jpg,days
+KIRO,5 Day Forecast,https://mediaweb.kirotv.com/weather/5-day-dce.jpg,days
+KIRO,North Sound Doppler,https://mediaweb.kirotv.com/weather/Bli-Radar-DCE.jpg,days
+KIRO,Bellingham,https://mediaweb.kirotv.com/weather/Daypart-Bellingham.jpg,days
+KIRO,Everett,https://mediaweb.kirotv.com/weather/Daypart-Everett.jpg,days
+KIRO,Olympia,https://mediaweb.kirotv.com/weather/Daypart-Olympia.jpg,days
+KIRO,Seattle,https://mediaweb.kirotv.com/weather/Daypart-Seattle.jpg,days
+KIRO,Eastside Doppler,https://mediaweb.kirotv.com/weather/Eastside-Radar-DCE.jpg,days
+KIRO,Central Sound Doppler,https://mediaweb.kirotv.com/weather/Metro-Radar-DCE.jpg,days
+KIRO,North Coast Doppler,https://mediaweb.kirotv.com/weather/N-Coast-Radar-DCE.jpg,days
+KIRO,Olympia Forecast,https://mediaweb.kirotv.com/weather/olympia-dce.jpg,days
+KIRO,South Coast Doppler,https://mediaweb.kirotv.com/weather/S-Coast-Radar-DCE.j,days
+KIRO,Tacoma Doppler,https://mediaweb.kirotv.com/weather/Tacoma-Radar-DCE.jpg,days
+KIRO,Storm Tracker Doppler,https://mediaweb.kirotv.com/weather/WW-RADAR-DCE.jpg,days
+KIRO,W. Wash. Satellite,https://mediaweb.kirotv.com/weather/ww-sat-dce.jpg,days
+WJAX,7 Day,https://mediaweb.actionnewsjax.com/weather/7_day.jpg,days
+WJAX,Coastal 7 Day,https://mediaweb.actionnewsjax.com/weather/accuzone_forecast_coastal.jpg,days
+WJAX,Inland 7 Day,https://mediaweb.actionnewsjax.com/weather/accuzone_forecast_inland.jpg,days
+WJAX,Temperature Map,https://mediaweb.actionnewsjax.com/weather/adi_temps.jpg,days
+WJAX,Beach,https://mediaweb.actionnewsjax.com/weather/beach.jpg,days
+WJAX,Boating,https://mediaweb.actionnewsjax.com/weather/boating.jpg,days
+WJAX,Burn Time,https://mediaweb.actionnewsjax.com/weather/Burntime.jpg,days
+WJAX,Metro Radar,https://mediaweb.actionnewsjax.com/weather/Duval_Zoom_Radar_2.jpg,days
+WJAX,Doppler,https://mediaweb.actionnewsjax.com/weather/First_Alert_Radar.jpg,days
+WJAX,Lighting,https://mediaweb.actionnewsjax.com/weather/lightning.jpg,days
+WJAX,NE Florida Radar,https://mediaweb.actionnewsjax.com/weather/NE_FL_Radar.jpg,days
+WJAX,Right Now in Duval,https://mediaweb.actionnewsjax.com/weather/Right%20Now_Duval.jpg,days
+WJAX,Right Now,https://mediaweb.actionnewsjax.com/weather/Right%20Now.jpg,days
+WJAX,SE Georgia Radar,https://mediaweb.actionnewsjax.com/weather/SE_GA_Radar_2.jpg,days
+WJAX,Sunrise & Sunset,https://mediaweb.actionnewsjax.com/weather/sunrise_sunset.jpg,days
+WJAX,Travel Forecast,https://mediaweb.actionnewsjax.com/weather/travel_forecast.jpg,days
+WJAX,Warnings,https://mediaweb.actionnewsjax.com/weather/warnings_2.jpg,days
+WJAX,Weekend Forecast,https://mediaweb.actionnewsjax.com/weather/Weekend_Forecast.jpg,days
+WJAX,Coastal Forecast,https://mediaweb.actionnewsjax.com/weather/zone_forecast_coastal.jpg,days
+WJAX,Inland Forecast,https://mediaweb.actionnewsjax.com/weather/zone_forecast_inland.jpg,days
+WJAX,Metro Forecast,https://mediaweb.actionnewsjax.com/weather/zone_forecast_metro.jpg,days
+WHIO,5-day forecast,https://mediaweb.whio.com/weather/5day.jpg,days
+WHIO,Auglaize County: Current Temperatures,https://mediaweb.whio.com/weather/Auglaize%20Co%20Temps.jpg,days
+WHIO,Auglaize County: County Forecast,https://mediaweb.whio.com/weather/Auglaize%20Co%20Today.jpg,days
+WHIO,Auglaize County: Live Doppler,https://mediaweb.whio.com/weather/Auglaize%20County%20Radar.jpg,days
+WHIO,Butler County: Current Temperatures,https://mediaweb.whio.com/weather/Butler%20Co%20Temps%20.jpg,days
+WHIO,Butler County: County Forecast,https://mediaweb.whio.com/weather/Butler%20Co%20Today.jpg,days
+WHIO,Butler County: Live Doppler,https://mediaweb.whio.com/weather/Butler%20County%20Radar.jpg,days
+WHIO,Champaign County: Current Temperatures,https://mediaweb.whio.com/weather/Champaign%20Co%20Temperatures.jpg,days
+WHIO,Champaign County: County Forecast,https://mediaweb.whio.com/weather/Champaign%20Co%20Today.jpg,days
+WHIO,Champaign County: Live Doppler,https://mediaweb.whio.com/weather/Champain%20County%20Radar.jpg,days
+WHIO,Clark County: Current Temperatures,https://mediaweb.whio.com/weather/Clark%20Co%20Temps.jpg,days
+WHIO,Clark County: County Forecast,https://mediaweb.whio.com/weather/Clark%20Co%20Today%20.png,days
+WHIO,Clark County: Live Doppler,https://mediaweb.whio.com/weather/Clark%20County%20Radar.jpg,days
+WHIO,Darke County: Current Temperatures,https://mediaweb.whio.com/weather/Darke%20Co%20Temps.jpg,days
+WHIO,Darke County: County Forecast,https://mediaweb.whio.com/weather/Darke%20Co%20Today%20.jpg,days
+WHIO,Darke County: Live Doppler,https://mediaweb.whio.com/weather/Darke%20County%20Radar.jpg,days
+WHIO,Miami Valley Visbility,https://mediaweb.whio.com/weather/DMA%20Visibility.jpg,days
+WHIO,Current Alerts,https://mediaweb.whio.com/weather/DMA%20Watches%20Warnings.jpg,days
+WHIO,Greene County: Current Temperatures,https://mediaweb.whio.com/weather/Greene%20Co%20Temps%20.jpg,days
+WHIO,Greene County: County Forecast,https://mediaweb.whio.com/weather/Greene%20Co%20Today.jpg,days
+WHIO,Greene County: Live Doppler,https://mediaweb.whio.com/weather/Greene%20County%20Radar.jpg,days
+WHIO,Live Doppler 7,https://mediaweb.whio.com/weather/Live%20Doppler%207.jpg,days
+WHIO,Logan County: Current Temperatures,https://mediaweb.whio.com/weather/Logan%20Co%20Temps%20.jpg,days
+WHIO,Logan County: County Forecast,https://mediaweb.whio.com/weather/Logan%20Co%20Today.jpg,days
+WHIO,Logan County: Live Doppler,https://mediaweb.whio.com/weather/Logan%20County%20Radar.png,days
+WHIO,Mercer County: Current Temperatures,https://mediaweb.whio.com/weather/Mercer%20Co%20Temps%20.jpg,days
+WHIO,Mercer County: County Forecast,https://mediaweb.whio.com/weather/Mercer%20Co%20Today%20.jpg,days
+WHIO,Mercer County: Live Doppler,https://mediaweb.whio.com/weather/Mercer%20County%20Radar.jpg,days
+WHIO,Miami County: Current Temperatures,https://mediaweb.whio.com/weather/Miami%20Co%20Temps.jpg,days
+WHIO,Miami County: County Forecast,https://mediaweb.whio.com/weather/Miami%20Co%20Today.jpg,days
+WHIO,Miami County: Live Doppler,https://mediaweb.whio.com/weather/Miami%20County%20Radar.jpg,days
+WHIO,Miami Valley Temperatures,https://mediaweb.whio.com/weather/Miami%20Valley%20Temps.jpg,days
+WHIO,Miami Vallery Wind Speed & Direction,https://mediaweb.whio.com/weather/Miami%20Valley%20Wind%20Speed.jpg,days
+WHIO,Montgomery County: Current Temperatures,https://mediaweb.whio.com/weather/Montgomery%20Co%20Temps%20.jpg,days
+WHIO,Montgomery County: County Forecast,https://mediaweb.whio.com/weather/Montgomery%20Co%20Today.jpg,days
+WHIO,Montgomery County: Live Doppler,https://mediaweb.whio.com/weather/Montgomery%20County%20Radar.jpg,days
+WHIO,National Airport Delays,https://mediaweb.whio.com/weather/National%20Airport%20Delays.jpg,days
+WHIO,National Satellite & Radar,https://mediaweb.whio.com/weather/National%20SatRad.jpg,days
+WHIO,Preble County: Current Temperatures,https://mediaweb.whio.com/weather/Preble%20Co%20Temps.jpg,days
+WHIO,Preble County: County Forecast,https://mediaweb.whio.com/weather/Preble%20Co%20Today.jpg,days
+WHIO,Preble County: Live Doppler,https://mediaweb.whio.com/weather/Preble%20County%20Radar.jpg,days
+WHIO,Regional Satellite & Radar,https://mediaweb.whio.com/weather/Redional%20SatRad%20.jpg,days
+WHIO,Regional Satellite & Radar,https://mediaweb.whio.com/weather/Redional%20SatRad%20.jpg,days
+WHIO,Regional Airport Delays,https://mediaweb.whio.com/weather/Regional%20Airport%20Delays.jpg,days
+WHIO,Shelby County: Current Temperatures,https://mediaweb.whio.com/weather/Shelby%20Co%20Temps%20.jpg,days
+WHIO,Shelby County: County Forecast,https://mediaweb.whio.com/weather/Shelby%20Co%20Today%20.jpg,days
+WHIO,Shelby County: Live Doppler,https://mediaweb.whio.com/weather/Shelby%20County%20Radar.jpg,days
+WHIO,Warren County: Current Temperatures,https://mediaweb.whio.com/weather/Warren%20Co%20Temps%20.jpg,days
+WHIO,Warren County: County Forecast,https://mediaweb.whio.com/weather/Warren%20Co%20Today.jpg,days
+WHIO,Warren County: Live Doppler,https://mediaweb.whio.com/weather/Warren%20County%20Radar.jpg,days
+WHIO,Wayne County: Current Temperatures,https://mediaweb.whio.com/weather/Wayne%20Co%20Temps.jpg,days
+WHIO,Wayne County: County Forecast,https://mediaweb.whio.com/weather/Wayne%20Co%20Today%20.jpg,days
+WHIO,Wayne County: Live Doppler,https://mediaweb.whio.com/weather/Wayne%20County%20Radar.jpg,days
+,,,
