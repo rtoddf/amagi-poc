@@ -34,7 +34,7 @@ function App() {
         });
 
         setContent(weatherContent);
-        // console.log('content: ', content);
+        console.log('content: ', content);
       } catch (err) {
         debugger;
       }
@@ -62,7 +62,7 @@ function App() {
               </div>
             </div>
             <div className='row02'>
-              <div className='slot01'>
+              <div className='slot-full'>
                 <Forecast websiteDomain={websiteDomain} content={content} />
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { padIconCode } from '../utilities/helpers';
+import { padIconCode, getCityState } from '../utilities/helpers';
 import './default.css';
 
 const CurrentConditions = ({ websiteDomain, content }) => {
@@ -11,7 +11,7 @@ const CurrentConditions = ({ websiteDomain, content }) => {
       {current && (
         <>
           <div className="city">
-            {current.obs_name && (current.obs_name)}
+            {getCityState(websiteDomain)}
           </div>
           <div className="flex-container">
             <div className="temp">
