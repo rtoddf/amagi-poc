@@ -1,5 +1,5 @@
 .meteorologist {
-    padding: 30px 70px;
+    padding: 30px;
 }
 
 .meteorologist .flex-container > div {
@@ -16,8 +16,7 @@
 }
 
 .meteorologist .profile-pic img {
-    width: 180px;
-    width: 180px;
+    width: 105%;
 }
 
 .meteorologist .heading {
@@ -36,6 +35,18 @@
     font-style: italic;
 }
 
+.meteorologist .cert-logo {
+    margin: 10px 0;
+}
+
 .meteorologist .cert-logo img {
     width: 55px;
+}
+
+.meteorologist .site-logo {
+    margin-bottom: 10px;;
+}
+
+.meteorologist .site-logo img {
+    width: 75px;
 }

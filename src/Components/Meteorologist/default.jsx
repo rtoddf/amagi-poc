@@ -1,12 +1,12 @@
 import React from 'react';
-import { metCertLogo } from '../utilities/helpers';
+import { metCertLogo, getSiteLogo } from '../utilities/helpers';
 import './default.css';
 
 const Meteorologist = ({ websiteDomain, content }) => {
   const meteorologist = content['meteorologist'];
   const metImage = content["metImage"];
 
-  console.log('meteorologist: ', meteorologist)
+  console.log('websiteDomain: ', websiteDomain)
 
   return (
     <div className="meteorologist">
@@ -19,6 +19,12 @@ const Meteorologist = ({ websiteDomain, content }) => {
             />
           </div>
           <div className="profile-data">
+            <div className="site-logo">
+              <img
+                src={getSiteLogo(websiteDomain)}
+                alt={websiteDomain}
+              />
+            </div>
             <div className="heading">
               Forecast by <span className="role">{meteorologist.role && (meteorologist.role)}</span>
             </div>
