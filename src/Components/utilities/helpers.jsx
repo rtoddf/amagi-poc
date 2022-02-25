@@ -1,84 +1,14 @@
-// mapping for site logos
-export function getSiteLogo(site) {
-  let siteLogo;
-
-  switch (site) {
-      case 'https://www.wsbtv.com':
-        siteLogo = 'https://www.wsbtv.com/pf/resources/images/sites/cmg-tv-10010/station-logo.png?d=362';
-        break;
-      case 'https://www.whio.com':
-        siteLogo = 'https://www.whio.com/pf/resources/images/sites/cmg-tv-10040/station-logo.png?d=362';
-        break;
-      case 'https://www.kiro7.com':
-        siteLogo = 'https://www.kiro7.com/pf/resources/images/sites/cmg-tv-10090/station-logo.png?d=362';
-        break;
-      case 'https://www.wsoctv.com':
-        siteLogo = 'https://www.wsoctv.com/pf/resources/images/sites/cmg-tv-10030/station-logo.png?d=362';
-        break;
-      case 'https://www.wpxi.com':
-        siteLogo = 'https://www.wpxi.com/pf/resources/images/sites/cmg-tv-10080/station-logo.png?d=362';
-        break;
-      case 'https://www.wftv.com':
-        siteLogo = 'https://www.wftv.com/pf/resources/images/sites/cmg-tv-10070/station-logo.png?d=362';
-        break;
-      case 'https://www.boston25news.com':
-        siteLogo = 'https://www.boston25news.com/pf/resources/images/sites/cmg-tv-10020/station-logo.png?d=362';
-        break;
-      case 'https://www.fox23.com':
-        siteLogo = 'https://www.fox23.com/pf/resources/images/sites/cmg-tv-10100/station-logo.png?d=362';
-        break;
-      case 'https://www.fox13memphis.com':
-        siteLogo = 'https://www.fox13memphis.com/pf/resources/images/sites/cmg-tv-10060/station-logo.png?d=362';
-        break;
-      case 'https://www.actionnewsjax.com/':
-        siteLogo = 'https://www.actionnewsjax.com/pf/resources/images/sites/cmg-tv-10050/station-logo.png?d=362';
-        break;
-      default:
-        siteLogo = 'https://www.wsbtv.com/pf/resources/images/sites/cmg-tv-10010/station-logo.png?d=362';
-  }
-
-  return siteLogo;
+export function getSiteLogo(websiteDomain, siteID) {
+  return `${websiteDomain}/pf/resources/images/sites/${siteID}/station-logo.png?d=362`;
 }
 
-export function getCityState(site) {
-  let cityState;
+export function getIcon(websiteDomain, iconCode = '') {
+  const paddedIconCode = (iconCode+'').padStart(2, '0');
+  return `${websiteDomain}/pf/resources/images/weather/status-icons/${paddedIconCode}.png?d=348`;
+}
 
-  switch (site) {
-      case 'https://www.wsbtv.com':
-        cityState = 'Atlanta, GA';
-        break;
-      case 'https://www.whio.com':
-        cityState = 'Dayton, OH';
-        break;
-      case 'https://www.kiro7.com':
-        cityState = 'Seattle, WA';
-        break;
-      case 'https://www.wsoctv.com':
-        cityState = 'Charlotte, NC';
-        break;
-      case 'https://www.wpxi.com':
-        cityState = 'Pittsburgh, PA';
-        break;
-      case 'https://www.wftv.com':
-        cityState = 'Orlando, FL';
-        break;
-      case 'https://www.boston25news.com':
-        cityState = 'Boston, MA';
-        break;
-      case 'https://www.fox23.com':
-        cityState = 'Tulsa, OK';
-        break;
-      case 'https://www.fox13memphis.com':
-        cityState = 'Memphis, TN';
-        break;
-      case 'https://www.actionnewsjax.com/':
-        cityState = 'Jacksonville, FL';
-        break;
-      default:
-        cityState = 'Atlanta, GA';
-  }
-
-  return cityState;
+export function getCityState(siteProps) {
+  return siteProps["cityState"] || 'Atlanta, GA';
 }
 
 // we loop through all the certifications and add the respective images

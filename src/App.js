@@ -13,6 +13,7 @@ import Forecast from './Components/Forecast/default';
 import slideshowImages from './Components/data/slideshow';
 import fullScreenImages from './Components/data/weather-images';
 import siteProperties from './Components/data/site-properties';
+import { getCityState } from './Components/utilities/helpers';
 import './css/base.css';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
   const [content, setContent] = useState({});
 
   const { siteID, zipCode, websiteDomain, metCollectionAlias } =
-    siteProperties[site];
+        siteProperties[site];
 
   useEffect(() => {
     (async () => {
@@ -50,12 +51,13 @@ function App() {
               <div className='slot01'>
                 <Meteorologist
                   websiteDomain={websiteDomain}
+                  siteID={siteID}
                   content={content}
                   metImage={content.metImage}
                 />
               </div>
               <div className='slot02'>
-                <CurrentConditions websiteDomain={websiteDomain} content={content} />
+                <CurrentConditions websiteDomain={websiteDomain} content={content} cityState={getCityState(siteProperties[site])}/>
               </div>
               <div className='slot03'>
                 <Image delay={delay} site={site} images={slideshowImages} />

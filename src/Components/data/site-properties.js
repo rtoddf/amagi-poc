@@ -560,7 +560,8 @@ const siteProperties = {
       "zone": "GAC011,GAC013,GAC015,GAC035,GAC045,GAC055,GAC057,GAC059,NCC043,GAC063,ALC029,GAC067,GAC077,GAC085,GAC089,GAC097,GAC111,GAC113,GAC115,GAC117,GAC121,GAC123,GAC129,GAC133,GAC135,GAC137,GAC139,GAC143,GAC149,GAC151,GAC157,GAC159,GAC171,GAC187,GAC195,GAC199,GAC211,GAC217,GAC219,GAC221,GAC223,GAC227,GAC231,GAC233,GAC237,GAC241,ALC111,GAC247,GAC255,GAC281,GAC285,GAC291,GAC293,GAC297,GAC311"
     },
     "zipCode": "30309",
-    "siteID": "cmg-tv-10010"
+    "siteID": "cmg-tv-10010",
+    "cityState": "Atlanta, GA"
   },
   "wfxt": {
     "metCollectionAlias": "met-forecast",
@@ -571,7 +572,8 @@ const siteProperties = {
       "zone": "MAC001,MAC007,MAC009,MAC017,MAC019,MAC021,MAC023,MAC025,MAC027,NHC001,NHC005,NHC011,NHC013,NHC015,NHC017,VTC025"
     },
     "zipCode": "02026",
-    "siteID": "cmg-tv-10020"
+    "siteID": "cmg-tv-10020",
+    "cityState": "Boston, MA"
   },
   "wsoc": {
     "metCollectionAlias": "met-forecast",
@@ -582,7 +584,8 @@ const siteProperties = {
       "zone": "NCC003,NCC007,NCC009,NCC011,NCC023,NCC025,NCC027,NCC035,SCC023,SCC025,NCC045,NCC071,NCC097,SCC057,NCC109,NCC119,NCC153,NCC159,NCC167,NCC179,NCC189,SCC091"
     },
     "zipCode": "28202",
-    "siteID": "cmg-tv-10030"
+    "siteID": "cmg-tv-10030",
+    "cityState": "Charlotte, NC"
   },
   "whio": {
     "metCollectionAlias": "met-forecast",
@@ -593,7 +596,8 @@ const siteProperties = {
       "zone": "INC135,INC177,OHC107,OHC011,OHC091,OHC037,OHC149,OHC109,OHC021,OHC023,OHC135,OHC113,OHC057,OHC017,OHC165,OHC027"
     },
     "zipCode": "45401",
-    "siteID": "cmg-tv-10040"
+    "siteID": "cmg-tv-10040",
+    "cityState": "Dayton, OH"
   },
   "wjax": {
     "metCollectionAlias": "met-forecast",
@@ -604,7 +608,8 @@ const siteProperties = {
       "zone": "FLC003,FLC007,GAC025,GAC039,GAC049,FLC019,FLC023,FLC031,GAC127,FLC089,GAC229,FLC109,FLC125,GAC299,FLC107"
     },
     "zipCode": "32224",
-    "siteID": "cmg-tv-10050"
+    "siteID": "cmg-tv-10050",
+    "cityState": "Jacksonville, FL"
   },
   "whbq": {
     "metCollectionAlias": "met-forecast",
@@ -615,7 +620,8 @@ const siteProperties = {
       "zone": "ARC035,ARC037,ARC077,ARC093,ARC107,ARC111,ARC123,MSC003,MSC009,MSC027,MSC033,MSC071,MSC093,MSC107,MSC119,MSC137,MSC139,MSC143,TNC033,TNC045,TNC149,TNC069,TNC075,TNC097,TNC109,TNC157,TNC167"
     },
     "zipCode": "38111",
-    "siteID": "cmg-tv-10060"
+    "siteID": "cmg-tv-10060",
+    "cityState": "Memphis, TN"
   },
   "wftv": {
     "metCollectionAlias": "met-forecast",
@@ -626,7 +632,8 @@ const siteProperties = {
       "zone": "FLC009,FLC035,FLC069,FLC083,FLC095,FLC097,FLC105,FLC117,FLC119,FLC127"
     },
     "zipCode": "32801",
-    "siteID": "cmg-tv-10070"
+    "siteID": "cmg-tv-10070",
+    "cityState": "Orlando, FL"
   },
   "wpxi": {
     "metCollectionAlias": "met-forecast",
@@ -637,7 +644,8 @@ const siteProperties = {
       "zone": "PAC003,PAC005,PAC007,PAC019,PAC031,PAC051,PAC053,MDC023,PAC059,PAC063,PAC073,PAC085,WVC061,WVC077,PAC121,PAC125,PAC129"
     },
     "zipCode": "15219",
-    "siteID": "cmg-tv-10080"
+    "siteID": "cmg-tv-10080",
+    "cityState": "Pittsburgh, PA"
   },
   "kiro": {
     "metCollectionAlias": "met-forecast",
@@ -648,7 +656,8 @@ const siteProperties = {
       "zone": "WAC007,WAC009,WAC017,WAC027,WAC029,WAC031,WAC033,WAC035,WAC041,WAC045,WAC049,WAC053,WAC055,WAC057,WAC061,WAC067,WAC073"
     },
     "zipCode": "98121",
-    "siteID": "cmg-tv-10090"
+    "siteID": "cmg-tv-10090",
+    "cityState": "Seattle, WA"
   },
   "koki": {
     "metCollectionAlias": "met-forecast",
@@ -659,7 +668,8 @@ const siteProperties = {
       "zone": "OKC001,KSC019,OKC021,OKC035,OKC037,OKC041,OKC061,OKC077,OKC097,OKC091,KSC125,OKC101,OKC105,OKC107,OKC111,OKC113,OKC117,OKC121,OKC131,OKC143,OKC145,OKC147"
     },
     "zipCode": "74129",
-    "siteID": "cmg-tv-10100"
+    "siteID": "cmg-tv-10100",
+    "cityState": "Tulsa, OK"
   }
 };
 

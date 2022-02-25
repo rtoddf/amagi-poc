@@ -1,24 +1,23 @@
 import React from 'react';
-import { padIconCode, getCityState } from '../utilities/helpers';
+import { getIcon } from '../utilities/helpers';
 import './default.css';
 
-const CurrentConditions = ({ websiteDomain, content }) => {
+const CurrentConditions = ({ websiteDomain, content, cityState }) => {
   const current = content['current'];
-  const iconCode = padIconCode(current && current.wx_icon);
   // need the correct url with site for icon
   return (
     <div className="current-conditions">
       {current && (
         <>
           <div className="city">
-            {getCityState(websiteDomain)}
+            {cityState}
           </div>
           <div className="flex-container">
             <div className="temp">
               {current.temp && (current.temp)}&deg;
             </div>
             <div className="icon">
-              <img src={`${websiteDomain}/pf/resources/images/weather/status-icons/${iconCode}.png?d=348`} alt="" />
+              <img src={current && getIcon(websiteDomain, current.wx_icon)} alt="" />
             </div>
           </div>
           <div className="conditions">

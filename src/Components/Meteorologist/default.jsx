@@ -2,7 +2,7 @@ import React from 'react';
 import { metCertLogo, getSiteLogo } from '../utilities/helpers';
 import './default.css';
 
-const Meteorologist = ({ websiteDomain, content }) => {
+const Meteorologist = ({ websiteDomain, content, siteID }) => {
   const meteorologist = content['meteorologist'];
   const metImage = content["metImage"];
 
@@ -21,7 +21,7 @@ const Meteorologist = ({ websiteDomain, content }) => {
           <div className="profile-data">
             <div className="site-logo">
               <img
-                src={getSiteLogo(websiteDomain)}
+                src={getSiteLogo(websiteDomain, siteID)}
                 alt={websiteDomain}
               />
             </div>
