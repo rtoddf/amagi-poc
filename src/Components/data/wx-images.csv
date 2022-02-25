@@ -1,30 +1,30 @@
 site,title,imageUrl,wxGroup
 WSB,5 Day Forecast,https://mediaweb.wsbtv.com/weather/5day.jpg ,days
-WSB,High Temperatures,https://mediaweb.wsbtv.com/weather/highs.jpg,days
-WSB,Highs Tomorrow,https://mediaweb.wsbtv.com/weather/highs2.jpg,days
-WSB,Low Temperatures,https://mediaweb.wsbtv.com/weather/lows2.jpg ,days
-WSB,Forecast 0-12 Hours,https://mediaweb.wsbtv.com/weather/time1.jpg ,days
-WSB,Forecast 12-24 Hours,https://mediaweb.wsbtv.com/weather/time2.jpg,days
-WSB,Forecast 24-36 Hours,https://mediaweb.wsbtv.com/weather/time3.jpg,days
-WSB,Current Temperatures,https://mediaweb.wsbtv.com/weather/GB_Currents.jpg,days
-WSB,DMA Metro,https://mediaweb.wsbtv.com/weather/DMA%20Metro.jpg,days
+WSB,High Temperatures,https://mediaweb.wsbtv.com/weather/highs.jpg,map
+WSB,Highs Tomorrow,https://mediaweb.wsbtv.com/weather/highs2.jpg,map
+WSB,Low Temperatures,https://mediaweb.wsbtv.com/weather/lows2.jpg ,map
+WSB,Forecast 0-12 Hours,https://mediaweb.wsbtv.com/weather/time1.jpg ,map
+WSB,Forecast 12-24 Hours,https://mediaweb.wsbtv.com/weather/time2.jpg,map
+WSB,Forecast 24-36 Hours,https://mediaweb.wsbtv.com/weather/time3.jpg,map
+WSB,Current Temperatures,https://mediaweb.wsbtv.com/weather/GB_Currents.jpg,map
+WSB,DMA Metro,https://mediaweb.wsbtv.com/weather/DMA%20Metro.jpg,map
 KIRO,Tacoma,http://mediaweb.kirotv.com/weather/Daypart-Tacoma.jpg,days
-KIRO,Central Puget Sound,http://mediaweb.kirotv.com/weather/metro-dce.jpg,days
-KIRO,Tacoma Forecast,http://mediaweb.kirotv.com/weather/tomorrowhighs.jpg,days
+KIRO,Central Puget Sound,http://mediaweb.kirotv.com/weather/metro-dce.jpg,map
+KIRO,Tacoma Forecast,http://mediaweb.kirotv.com/weather/tomorrowhighs.jpg,map
 KIRO,5 Day Forecast,https://mediaweb.kirotv.com/weather/5-day-dce.jpg,days
-KIRO,North Sound Doppler,https://mediaweb.kirotv.com/weather/Bli-Radar-DCE.jpg,days
+KIRO,North Sound Doppler,https://mediaweb.kirotv.com/weather/Bli-Radar-DCE.jpg,map
 KIRO,Bellingham,https://mediaweb.kirotv.com/weather/Daypart-Bellingham.jpg,days
 KIRO,Everett,https://mediaweb.kirotv.com/weather/Daypart-Everett.jpg,days
 KIRO,Olympia,https://mediaweb.kirotv.com/weather/Daypart-Olympia.jpg,days
 KIRO,Seattle,https://mediaweb.kirotv.com/weather/Daypart-Seattle.jpg,days
-KIRO,Eastside Doppler,https://mediaweb.kirotv.com/weather/Eastside-Radar-DCE.jpg,days
-KIRO,Central Sound Doppler,https://mediaweb.kirotv.com/weather/Metro-Radar-DCE.jpg,days
-KIRO,North Coast Doppler,https://mediaweb.kirotv.com/weather/N-Coast-Radar-DCE.jpg,days
-KIRO,Olympia Forecast,https://mediaweb.kirotv.com/weather/olympia-dce.jpg,days
-KIRO,South Coast Doppler,https://mediaweb.kirotv.com/weather/S-Coast-Radar-DCE.j,days
-KIRO,Tacoma Doppler,https://mediaweb.kirotv.com/weather/Tacoma-Radar-DCE.jpg,days
-KIRO,Storm Tracker Doppler,https://mediaweb.kirotv.com/weather/WW-RADAR-DCE.jpg,days
-KIRO,W. Wash. Satellite,https://mediaweb.kirotv.com/weather/ww-sat-dce.jpg,days
+KIRO,Eastside Doppler,https://mediaweb.kirotv.com/weather/Eastside-Radar-DCE.jpg,map
+KIRO,Central Sound Doppler,https://mediaweb.kirotv.com/weather/Metro-Radar-DCE.jpg,map
+KIRO,North Coast Doppler,https://mediaweb.kirotv.com/weather/N-Coast-Radar-DCE.jpg,map
+KIRO,Olympia Forecast,https://mediaweb.kirotv.com/weather/olympia-dce.jpg,map
+KIRO,South Coast Doppler,https://mediaweb.kirotv.com/weather/S-Coast-Radar-DCE.jpg,map
+KIRO,Tacoma Doppler,https://mediaweb.kirotv.com/weather/Tacoma-Radar-DCE.jpg,map
+KIRO,Storm Tracker Doppler,https://mediaweb.kirotv.com/weather/WW-RADAR-DCE.jpg,map
+KIRO,W. Wash. Satellite,https://mediaweb.kirotv.com/weather/ww-sat-dce.jpg,map
 WJAX,7 Day,https://mediaweb.actionnewsjax.com/weather/7_day.jpg,days
 WJAX,Coastal 7 Day,https://mediaweb.actionnewsjax.com/weather/accuzone_forecast_coastal.jpg,days
 WJAX,Inland 7 Day,https://mediaweb.actionnewsjax.com/weather/accuzone_forecast_inland.jpg,days

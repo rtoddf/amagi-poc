@@ -8,42 +8,42 @@ const slideshow = {
     {
       "url": "https://mediaweb.wsbtv.com/weather/highs.jpg",
       "title": "High Temperatures",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.wsbtv.com/weather/highs2.jpg",
       "title": "Highs Tomorrow",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.wsbtv.com/weather/lows2.jpg ",
       "title": "Low Temperatures",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.wsbtv.com/weather/time1.jpg ",
       "title": "Forecast 0-12 Hours",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.wsbtv.com/weather/time2.jpg",
       "title": "Forecast 12-24 Hours",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.wsbtv.com/weather/time3.jpg",
       "title": "Forecast 24-36 Hours",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.wsbtv.com/weather/GB_Currents.jpg",
       "title": "Current Temperatures",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.wsbtv.com/weather/DMA%20Metro.jpg",
       "title": "DMA Metro",
-      "wxGroup": "days"
+      "wxGroup": "map"
     }
   ],
   "kiro": [
@@ -55,12 +55,12 @@ const slideshow = {
     {
       "url": "http://mediaweb.kirotv.com/weather/metro-dce.jpg",
       "title": "Central Puget Sound",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "http://mediaweb.kirotv.com/weather/tomorrowhighs.jpg",
       "title": "Tacoma Forecast",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.kirotv.com/weather/5-day-dce.jpg",
@@ -70,7 +70,7 @@ const slideshow = {
     {
       "url": "https://mediaweb.kirotv.com/weather/Bli-Radar-DCE.jpg",
       "title": "North Sound Doppler",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.kirotv.com/weather/Daypart-Bellingham.jpg",
@@ -95,42 +95,42 @@ const slideshow = {
     {
       "url": "https://mediaweb.kirotv.com/weather/Eastside-Radar-DCE.jpg",
       "title": "Eastside Doppler",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.kirotv.com/weather/Metro-Radar-DCE.jpg",
       "title": "Central Sound Doppler",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.kirotv.com/weather/N-Coast-Radar-DCE.jpg",
       "title": "North Coast Doppler",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.kirotv.com/weather/olympia-dce.jpg",
       "title": "Olympia Forecast",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
-      "url": "https://mediaweb.kirotv.com/weather/S-Coast-Radar-DCE.j",
+      "url": "https://mediaweb.kirotv.com/weather/S-Coast-Radar-DCE.jpg",
       "title": "South Coast Doppler",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.kirotv.com/weather/Tacoma-Radar-DCE.jpg",
       "title": "Tacoma Doppler",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.kirotv.com/weather/WW-RADAR-DCE.jpg",
       "title": "Storm Tracker Doppler",
-      "wxGroup": "days"
+      "wxGroup": "map"
     },
     {
       "url": "https://mediaweb.kirotv.com/weather/ww-sat-dce.jpg",
       "title": "W. Wash. Satellite",
-      "wxGroup": "days"
+      "wxGroup": "map"
     }
   ],
   "wjax": [
