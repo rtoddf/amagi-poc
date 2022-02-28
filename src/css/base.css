@@ -19,6 +19,9 @@ html {
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 1920px;
     height: 1080px;
     overflow: hidden;
@@ -47,4 +50,8 @@ html {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.slot03 {
+    justify-content: flex-end;
 }
