@@ -16,7 +16,8 @@
 }
 
 .meteorologist .profile-pic img {
-    width: 105%;
+    width: 115%;
+    margin-left: -10px;
 }
 
 .meteorologist .heading {
@@ -48,5 +49,5 @@
 }
 
 .meteorologist .site-logo img {
-    width: 75px;
+    width: 150px;
 }

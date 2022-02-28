@@ -1,4 +1,7 @@
 import axios from 'axios';
+import AMS_Cert from '../../images/logo_AMS_Cert.png';
+import AMS_approved from '../../images/logo_AMS_approved.png';
+import NWA from '../../images/logo_NWA.png';
 
 const deployment = { d: 362 };
 
@@ -69,7 +72,23 @@ export function metCertLogo(certs, websiteDomain) {
       certLogos.push(
         <img
           key={index}
-          src={`${websiteDomain}/pf/resources/images/weather/meteorologist-cert/logo_AMS_Cert.png?d=${deployment.d}`} alt="AMS Certified"
+          src={AMS_Cert} alt="AMS Certified"
+        />
+      );
+      break;
+    case 'AMS Approved':
+      certLogos.push(
+        <img
+          key={index}
+          src={AMS_approved} alt="AMS Approved"
+        />
+      );
+      break;
+    case 'NWA':
+      certLogos.push(
+        <img
+          key={index}
+          src={NWA} alt="NWA"
         />
       );
       break;
